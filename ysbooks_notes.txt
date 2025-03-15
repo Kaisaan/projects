@@ -1,0 +1,2 @@
+track 2 has text
+dictionary table is at 000C2510

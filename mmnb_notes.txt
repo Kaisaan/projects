@@ -1,0 +1,17 @@
+opening scene text is at $0034BC34
+
+there's Japanese text graphics at the end of the 2bpp (unused?)
+
+Regular text graphics start at $00340350 4bpp linear, row-interleaved
+
+Outlined text graphics start at $00348350 4bpp linear, row-interleaved
+
+XX:[YY] Means (Value at Register XX) * $10 (16Dec) + (Value at Register YY)
+
+For $34BC34, ES = $4B8A, BX = $0394
+
+For $34BC36, ES = $4B8A, BX = $0396
+
+$4B8A is being read from $34B790
+
+Opcode MOV DX, $4B79 is at $32362F
