@@ -1,11 +1,12 @@
 # Projects
 Place for me to add projects that I haven't fully committed to for whatever reason.  
 If you are interested in helping me with any of these projects please [contact me](https://kaisaan.github.io/pages/contact)  
+I apologize for the awful notes files.
 
 # Ys Book I & II (PCE-CD) Relocalization
 **Info**: Not sure if "relocalization" is the right term but I want to edit the existing localization of the game to use the modern terms used in later *Ys* localizations and releases. Having Dogi be renamed as Colin is funny though  
-**Progress**: Made a table file and found the text, I don't think dumping text is needed. I also made a spreadsheet to compare what needs to be changed  
-**Notes**: See notes file and [localization changes spreadsheet](https://docs.google.com/spreadsheets/d/14efc2_Ah8uxgdXu9EfgDKUMMqBqisJnxj0-aCOOkT8I/edit?usp=sharing)  
+**Progress**: Made a [table file](https://github.com/Kaisaan/projects/blob/main/ysbooks_table.tbl) and found the text, I don't think dumping text is needed. I also made a spreadsheet to compare what needs to be changed  
+**Notes**: See [notes file](https://github.com/Kaisaan/projects/blob/main/ysbooks_notes.txt) and [localization changes spreadsheet](https://docs.google.com/spreadsheets/d/14efc2_Ah8uxgdXu9EfgDKUMMqBqisJnxj0-aCOOkT8I/edit?usp=sharing)  
 **Status**: I'll work on this eventually I think. I know that the English localization of the game also had many [balance changes](https://tcrf.net/Ys:_Book_I_%26_II) but I haven't found the stats in the game's files yet
 
 # Legacy of Ys - Books I & II (NDS) Relocalization
@@ -17,8 +18,8 @@ I have columns in the [localization changes spreadsheet](https://docs.google.com
 
 # Rockman EXE N1 Battle (WSC) Translation
 **Info**: Localized as *Mega Man Battle Chip Challenge N1*, this game is different from its GBA counterpart *Mega Man Battle Chip Challenge* being a cutdown version of it.  
-**Progress**: Made an unfinished table file (thanks to Sugunii for the help!), found where the text is located  
-**Notes**: See notes file  
+**Progress**: Made an unfinished [table file](https://github.com/Kaisaan/projects/blob/main/mmnb_table.tbl) (thanks to Sugunii for the help!), found where the text is located  
+**Notes**: See [notes file](https://github.com/Kaisaan/projects/blob/main/mmnb_notes.txt)  
 **Status**: I don't have a full table file so I won't be able to dump all the text I think. I might just compare strings from the Japanese GBA version and then replace them with their English counterparts.
 
 # Neon Genesis Evangelion (N64) Translation
