@@ -40,3 +40,21 @@ The filetable posted by Zoinkitty [is still available](https://web.archive.org/w
 **Progress**: I made a pretty basic table file based off of the PC-88 BIOS files and also found the text for the game  
 **Notes**: Nothing to say here  
 **Status**: **Cancelled**, well, only *my* version of the translation project. I found someone that is working on translating the entire PC-88 *Ys* trilogy, so there's no reason for me to continue working on this (they've made much more progress). I'll update this whenever that project is finished
+
+# Erst Kerf (PC) Translation
+**Info**: A really cool shump/dungeon crawler doujin game with a really cool artstyle and soundtrack that I saw my friend Sugunii play. The game seems to have a story but is sadly untranslated so I decided to look into if I could find the text.  
+**Progress**: I found the text but I have no translator.  
+**Notes**: Text for the game can be found in the `date` folder in the indiviual `.scp` files for each stage. The stages' script files seem to just have a `text ""` command which can be changed.  
+**Status**: This is just something I looked into for curiousity. If someone is interested in translating the game it seems pretty simple to do so.
+
+# Witch's Wish (NDS) Sprite Extraction
+**Info**: A game I don't really know much about but my friend wanted to get the sprites extracted as regular image files.  
+**Progress**: After unpacking the ROM with [NitroPacker](https://github.com/haroohie-club/NitroPacker) I was able to find the characters' graphics in `data/2d/cast` as file formats that were recognized by [NitroPaint](https://github.com/Garhoogin/NitroPaint) and was able to extract.  
+**Notes**: None  
+**Status**: I guess this is considered complete? Once NitroPaint has the function to export NANR animations as .GIF files, extracting the character animations would be faster.
+
+# A Witch's Tale (NDS) Script Extraction
+**Info**: Same thing with *Witch's Wish* my friend wanted to extract the graphics of the game because they love the cute artstyle.  
+**Progress**: I couldn't do much, the game has a lot of overlays and a single `romfile.bin` so I'd have to do some more manual work to extract the sprites.  
+**Notes**: None
+**Status**: Even though I didn't get much done I still wanted to add it here so I can get into the habit of posting about future tinkering with other games.
