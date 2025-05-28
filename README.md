@@ -1,7 +1,7 @@
 # Projects
 Place for me to add projects that I haven't fully committed to for whatever reason.  
 If you are interested in helping me with any of these projects please [contact me](https://kaisaan.github.io/pages/contact)  
-I apologize for the awful notes files.
+I apologize for the awful notes.
 
 # Ys Book I & II (PCE-CD) Relocalization
 **Info**: Not sure if "relocalization" is the right term but I want to edit the existing localization of the game to use the modern terms used in later *Ys* localizations and releases. Having Dogi be renamed as Colin is funny though  
@@ -21,6 +21,14 @@ I have columns in the [localization changes spreadsheet](https://docs.google.com
 **Progress**: Made an unfinished [table file](https://github.com/Kaisaan/projects/blob/main/mmnb_table.tbl) (thanks to Sugunii for the help!), found where the text is located  
 **Notes**: See [notes file](https://github.com/Kaisaan/projects/blob/main/mmnb_notes.txt)  
 **Status**: I don't have a full table file so I won't be able to dump all the text I think. I might just compare strings from the Japanese GBA version and then replace them with their English counterparts.
+
+# Ys Remakes (PS2) Translations
+**Info**: While I already have been working on translating [*Ys V: Lost Kefin, Kingdom of Sand*](https://github.com/Kaisaan/lostkefin) as one of my main projects, I eventually want to translate the other *Ys* games that were remake on the PS2.  
+**Progress**: I only looked at the file structures for all of the games' ISOs.  
+**Notes**: The only different between the normal and the "Tokubetsu Genteiban" releases of *Ys I & II - Eternal Story* is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).  
+*Ys III - Wanderers from Ys* has the extact same file structure as *Ys V* by having `DATA.BIN`, `DATA0.BIN`, and `DATA1.BIN` for all the game's data. This should be the easiest to hack next.  
+*Ys IV - Mask of the Sun ~A New Theory~* has `DAT.PAK` and `DAT.PKI` to store all its gamedata.  
+**Status**: I can't really do anything right now with these games since I don't have any translators. If there is anything worth changing, Please contact me if you want to help!
 
 # Neon Genesis Evangelion (N64) Translation
 **Info**: I have beat this game in full once thanks to the [multiple guides on GameFAQs](https://gamefaqs.gamespot.com/n64/198127-neon-genesis-evangelion/faqs) but I still want to have this game translated, especially since there are many other translated *Evangelion* games  
