@@ -30,6 +30,27 @@ I have columns in the [localization changes spreadsheet](https://docs.google.com
 *Ys IV - Mask of the Sun ~A New Theory~* has `DAT.PAK` and `DAT.PKI` to store all its gamedata.  
 **Status**: I can't really do anything right now with these games since I don't have any translators. If there is anything worth changing, Please contact me if you want to help!
 
+# Shin Megami Tensei Devil Children: Black Book (GBC) Translation
+**Info**: While [there already is a translation](https://www.romhacking.net/translations/6163/) for the game, the translation quality was critisized. I managed to find an old, full translated script of the game done by Translator Tom. I asked for permission to use the script as a personal project.  
+**Progress**: I was able to get most of the Japanese script dumped and inserted the first few lines of the game.  
+I got in contact with [Specialagentape](https://www.romhacking.net/community/5916/), the hacker and editor of the original project. They explained to me that most of the script that their translator [Higsby](https://www.romhacking.net/community/2697/) worked on had to be trimmed down a lot due to the limitted space that the Gameboy (Colour) screen has. This is completely understandable on their end.  
+I also got in contact with Tom for permission to use their old English translation. They wanted me to not release anything if I do use their script, but if I ever finished up anything, they would be willing to make a new translated script.  
+So ideally, I'd have to implement some methods to increase the number of possible letters on a screen, such as implementing a Variable Width Font (VWF) routine.    
+**Notes**: I used the [ROMhacking tutorials by Bunkai](https://www.romhacking.net/community/7232/) to help with hacking the game. My files for this project were a complete mess.  
+**Status**: I might return to this one day and also try hacking the counterpart game *Red Book* or its sequel game *White Book*. Hopefully we see more *Devil Children* translations in general since there's still a good few games left untranslated.
+
+# Digitial Devil Story: Megami Tensei (PC-88) Translation
+**Info**: After I successfully made a full translation of [the MSX version of the game](https://www.romhacking.net/translations/7180/) I wanted to try translating the other versions since the MSX release is distinct from the others. Since I had already beat the PC-88 version I wanted to try translating that.  
+**Progress**: With the help of MKCA, we were able to make a full table file for all the characters used in the PC-88 BIOS files, including the Kanji tables. The text for the game was found and I was able to edit it. The issue is that there is a lack of space available to add longer text or even use non-fullwidth characters.  
+**Notes**: None
+**Status**: If I can get better at hacking Japanese PCs like the PC-88, or even the Sharp X1 and FM-7, I can translate the game. It's a shame that there isn't that many resources for hacking these systems.
+
+# Popful Mail (PCE-CD) Tranlsation
+**Info**: I'll add this later
+**Progress**:
+**Notes**:
+**Status**:
+
 # Neon Genesis Evangelion (N64) Translation
 **Info**: I have beat this game in full once thanks to the [multiple guides on GameFAQs](https://gamefaqs.gamespot.com/n64/198127-neon-genesis-evangelion/faqs) but I still want to have this game translated, especially since there are many other translated *Evangelion* games  
 **Progress**: Zoinkitty has posted a file inserter and character font before on the [ROMhacking.net forums](https://web.archive.org/web/20201202192730/https://www.romhacking.net/forum/index.php?topic=22265.0) but the download links do not work any more.  
