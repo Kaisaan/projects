@@ -1,6 +1,7 @@
 # Projects
 Place for me to add projects that I haven't fully committed to for whatever reason.  
-If you are interested in helping me with any of these projects please [contact me](https://kaisaan.github.io/pages/contact)  
+If you are interested in helping me with any of these projects please [contact me](https://kaisaan.github.io/pages/contact).  
+Feel free to join [my Hacking Discord server](https://discord.gg/JnqvyDryen) where I plan on posting updates for all my projects.  
 I apologize for the awful notes.
 
 # Ys Book I & II (PCE-CD) Relocalization
@@ -46,6 +47,12 @@ So ideally, I'd have to implement some methods to increase the number of possibl
 **Status**: If I can get better at hacking Japanese PCs like the PC-88, or even the Sharp X1 and FM-7, I can translate the game. It's a shame that there isn't that many resources for hacking these systems.
 
 # Popful Mail (PCE-CD) Tranlsation
+**Info**: Popful Mail is one of the more underrated titles by Nihon Falcom. There are multiple versions released but the only one that was officially localized (though poorly translated) was the Sega CD version. The PCE-CD version of the game is also popular and recently Forrealsyall made a full [translated playthough](https://www.youtube.com/playlist?list=PLj4ote4X6Yf5svx1ZDcXNomVAGbjJB7NJ) of the game. Which made me interested in trying to hack it to insert their translation. Big thanks to [X-pert74](https://bsky.app/profile/x-pert74.bsky.social) for bringing this to my attention!    
+**Progress**: I found the game's text and managed to edit it. But the font is very large it would be ideal to support ASCII encoding.
+**Notes**: Game uses Shift-JIS encoding.  
+**Status**: I'm technically actively working on this. I will need to look more into this.
+
+# Popful Mail (PCE-CD) Tranlsation
 **Info**: I'll add this later
 **Progress**:
 **Notes**:
@@ -55,7 +62,7 @@ So ideally, I'd have to implement some methods to increase the number of possibl
 **Info**: I have beat this game in full once thanks to the [multiple guides on GameFAQs](https://gamefaqs.gamespot.com/n64/198127-neon-genesis-evangelion/faqs) but I still want to have this game translated, especially since there are many other translated *Evangelion* games  
 **Progress**: Zoinkitty has posted a file inserter and character font before on the [ROMhacking.net forums](https://web.archive.org/web/20201202192730/https://www.romhacking.net/forum/index.php?topic=22265.0) but the download links do not work any more.  
 The filetable posted by Zoinkitty [is still available](https://web.archive.org/web/20170806110531/https://pastebin.com/Vt6SxCD3). Interestingly, a Korean translation of the game [did release](https://www.romhacking.net/translations/6260/) but by different people (and not OP)  
-**Notes**: None from me  
+**Notes**: None from me.  
 **Status**: I might return to this eventually, but hopefully an N64 hacking expert like Zoinkitty tackles this instead
 
 # Gekisou Sentai Carranger: Zenkai! Racer Senshi (SFC) Translation
