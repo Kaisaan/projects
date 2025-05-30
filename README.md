@@ -28,7 +28,7 @@ I have columns in the [localization changes spreadsheet](https://docs.google.com
 **Progress**: I only looked at the file structures for all of the games' ISOs.  
 **Notes**: The only different between the normal and the "Tokubetsu Genteiban" releases of *Ys I & II - Eternal Story* is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).  
 *Ys III - Wanderers from Ys* has the extact same file structure as *Ys V* by having `DATA.BIN`, `DATA0.BIN`, and `DATA1.BIN` for all the game's data. This should be the easiest to hack next.  
-*Ys IV - Mask of the Sun ~A New Theory~* has `DAT.PAK` and `DAT.PKI` to store all its gamedata.  
+*Ys IV - Mask of the Sun, A New Theory* has `DAT.PAK` and `DAT.PKI` to store all its gamedata.  
 **Status**: I can't really do anything right now with these games since I don't have any translators. If there is anything worth changing, Please contact me if you want to help!
 
 # Shin Megami Tensei Devil Children: Black Book (GBC) Translation
