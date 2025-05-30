@@ -52,11 +52,11 @@ So ideally, I'd have to implement some methods to increase the number of possibl
 **Notes**: Game uses Shift-JIS encoding.  
 **Status**: I'm technically actively working on this. I will need to look more into this.
 
-# Popful Mail (PCE-CD) Tranlsation
-**Info**: I'll add this later
-**Progress**:
-**Notes**:
-**Status**:
+# Wild Arms: Alter Code F (PS2) Relocalization
+**Info**: The only *Wild Arms* game I've played is the first *Wild Arms* but I'm interested in playing the other games too, including its remake on the PS2. Thanks to [Lime](https://bsky.app/profile/limetimebaby.bsky.social) for letting me know that the game's script could use a better translation, or at least be editted to sound better. The original Japanese release also had voices for the characters in battles that were removed in the English localization so I want to try to restore those voices.  
+**Progress**: I found the game's text and the game still seems to have the voice files, I just need to find a way to make them play in-game.  
+**Notes**: Game uses Shift-JIS encoding(?) for its text. Many files are idential between USA and JAP releases.  
+**Status**: I'm still working on this.  
 
 # Neon Genesis Evangelion (N64) Translation
 **Info**: I have beat this game in full once thanks to the [multiple guides on GameFAQs](https://gamefaqs.gamespot.com/n64/198127-neon-genesis-evangelion/faqs) but I still want to have this game translated, especially since there are many other translated *Evangelion* games  
