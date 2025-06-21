@@ -12,14 +12,14 @@ I apologize for the awful notes.
 
 # Legacy of Ys - Books I & II (NDS) Relocalization
 **Info**: Same thing like the PC-Engine version of the games, I wanted to fix Atlus' localization of the game to match the newer terms used.  
-**Progress**: Text found but not editted yet  
-**Notes**: The text for *Ys I* is in `overlay/main_0001.bin` and *Ys II* in `overlay/main_0002.bin` with the text using Shift-JIS encoding.  
-I have columns in the [localization changes spreadsheet](https://docs.google.com/spreadsheets/d/14efc2_Ah8uxgdXu9EfgDKUMMqBqisJnxj0-aCOOkT8I/edit?usp=sharing) for this game too  
-**Status**: The data area with all the text is a lot tighter in space, so I'll have to look for the text pointers before changing the text
+**Progress**: Some of the text has been edited.  
+**Notes**: The text for *Ys I* is in `overlay/main_0001.bin` and *Ys II* in `overlay/main_0002.bin` with the text using Shift-JIS encoding. All overlays are loaded at `0x205C000`. Names of locations on the map are in different `.inf` files located in `data\ys1\files\inf`.    
+I have columns in the [localization changes spreadsheet](https://docs.google.com/spreadsheets/d/14efc2_Ah8uxgdXu9EfgDKUMMqBqisJnxj0-aCOOkT8I/edit?usp=sharing) for this game too.  
+**Status**: I figured out how to load NDS projects into Ghidra, some strings don't seem to have pointers but that should be fine. I will start working on it more.
 
 # Rockman EXE N1 Battle (WSC) Translation
 **Info**: Localized as *Mega Man Battle Chip Challenge N1*, this game is different from its GBA counterpart *Mega Man Battle Chip Challenge* being a cutdown version of it.  
-**Progress**: Made an unfinished [table file](https://github.com/Kaisaan/projects/blob/main/mmnb_table.tbl) (thanks to Sugunii for the help!), found where the text is located  
+**Progress**: Made an unfinished [table file](https://github.com/Kaisaan/projects/blob/main/mmnb_table.tbl) (thanks to Sugunii for the help!), found where the text is located.  
 **Notes**: See [notes file](https://github.com/Kaisaan/projects/blob/main/mmnb_notes.txt)  
 **Status**: I don't have a full table file so I won't be able to dump all the text I think. I might just compare strings from the Japanese GBA version and then replace them with their English counterparts.
 
