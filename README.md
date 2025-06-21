@@ -29,7 +29,7 @@ I have columns in the [localization changes spreadsheet](https://docs.google.com
 **Notes**: The only different between the normal and the "Tokubetsu Genteiban" releases of *Ys I & II - Eternal Story* is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).  
 *Ys III - Wanderers from Ys* has the extact same file structure as *Ys V* by having `DATA.BIN`, `DATA0.BIN`, and `DATA1.BIN` for all the game's data. This should be the easiest to hack next.  
 *Ys IV - Mask of the Sun, A New Theory* has `DAT.PAK` and `DAT.PKI` to store all its gamedata.  
-**Status**: I can't really do anything right now with these games since I don't have any translators. If there is anything worth changing, Please contact me if you want to help!
+**Status**: I can't really do anything right now with these games since I don't have any translators. If you are interested translating any of these games please contact me if you want to help!
 
 # Shin Megami Tensei Devil Children: Black Book (GBC) Translation
 **Info**: While [there already is a translation](https://www.romhacking.net/translations/6163/) for the game, the translation quality was critisized. I managed to find an old, full translated script of the game done by Translator Tom. I asked for permission to use the script as a personal project.  
@@ -92,5 +92,5 @@ The filetable posted by Zoinkitty [is still available](https://web.archive.org/w
 # A Witch's Tale (NDS) Script Extraction
 **Info**: Same thing with *Witch's Wish* my friend wanted to extract the graphics of the game because they love the cute artstyle.  
 **Progress**: I couldn't do much, the game has a lot of overlays and a single `romfile.bin` so I'd have to do some more manual work to extract the sprites.  
-**Notes**: None
+**Notes**: None  
 **Status**: Even though I didn't get much done I still wanted to add it here so I can get into the habit of posting about future tinkering with other games.
