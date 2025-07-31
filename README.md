@@ -25,11 +25,36 @@ I have columns in the [localization changes spreadsheet](https://docs.google.com
 
 # Ys Remakes (PS2) Translations
 **Info**: While I already have been working on translating [*Ys V: Lost Kefin, Kingdom of Sand*](https://github.com/Kaisaan/lostkefin) as one of my main projects, I eventually want to translate the other *Ys* games that were remake on the PS2.  
-**Progress**: I only looked at the file structures for all of the games' ISOs.  
+**Progress**: I only looked at the file structures and formats for all of the games' ISOs.  
 **Notes**: The only different between the normal and the "Tokubetsu Genteiban" releases of *Ys I & II - Eternal Story* is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).  
-*Ys III - Wanderers from Ys* has the extact same file structure as *Ys V* by having `DATA.BIN`, `DATA0.BIN`, and `DATA1.BIN` for all the game's data. This should be the easiest to hack next.  
-*Ys IV - Mask of the Sun, A New Theory* has `DAT.PAK` and `DAT.PKI` to store all its gamedata.  
-**Status**: I can't really do anything right now with these games since I don't have any translators. If you are interested translating any of these games please contact me if you want to help!
+*Ys III - Wanderers from Ys* has the extact same file structure as *Ys V* by having `DATA.BIN`, `DATA0.BIN`, and `DATA1.BIN` for all the game's data. The game also uses the same [custom graphics formats](https://github.com/Kaisaan/lostkefin/blob/main/graphicsFormat.md). This should be the easiest to hack next.  
+*Ys IV - Mask of the Sun, A New Theory* has `DAT.PAK` and `DAT.PKI` to store all its gamedata. I found a [script by Silvris](https://github.com/Silvris/RandomScriptsAndTemplates/blob/main/YsDatExtract.py) that extracts them.  
+Using their permission, I made my own version of the extractor. I also made a PKM/PAK/PKI re-inserter but I'm struggling on rebuilding the files perfectly. More research will be needed for these formats.  
+**Status**: I do have some folks willing to work with me for translating these games, but *Lost Kefin* is going to be the main project.
+
+# Summon Night 1 & 2 (NDS) Translations
+**Info**: While I'm not super familliar with the series, my friend wants this game translated so I looked into it.  
+**Progress**: Using [previous](https://gbatemp.net/threads/summon-night-1-translation-project.119735/) [attempts](https://github.com/yutriz/SN1-2_tl_tools) to see how the game works, I was able to get the script files extracted.  
+**Notes**: The font is `data/font12jp.NFTR` and is in Shift-JIS with variable-width ASCII support. All text files are `.rtz` files in the `scnrts` folder and are LZ10 compressed. The rest of the game's files are in `.narc` archives and use formats that can be opened with [NitroPaint](https://github.com/Garhoogin/NitroPaint).  
+**Status**: I do have some people interested in helping with translating this but with *Lost Kefin* being my main priority I don't want to lead another game right now. So if anyone else wants to pick it up, feel free to do so!
+
+# Ys 1 (X68000) Translation
+**Info**: Wow another *Ys* translation attempt! This version has very interesting in-game artwork and also has titlescreen/boxart made by the legendary Yoshitaka Amano.  
+**Progress**: I didn't get far since it seems that the game's text is compressed.  
+**Notes**: Once decompressed into the RAM, the game uses Shift-JIS encoding.  
+**Status**: I need to figure out what kind of compression the game uses still.
+
+# Ys 3 (X68000) Translation
+**Info**: I'm still not done with this series. When looking into the different versions of this game, this specific version is seen as a good version (with other later ports like the Genesis version being based off of this). So it made me surprised to see that nobody had bothered to translate it.  
+**Progress**: I found the text.  
+**Notes**: Game uses Shift-JIS encoding.
+**Status**: The game only supporting full-width text will cause issues with fitting an accurate translation, but if I can get a translation of the game then I'll try to insert it.
+
+# Falcom Classics (SAT) Translation
+**Info**: Guess which game in this collection I wanted to get translated. I only looked into this since the author of the [current existing translation](https://segaxtreme.net/threads/translating-ys-1.25212/) had disappeared without releasing any of the files.  
+**Progress**: I made a table file that only includes the English letters.  
+**Notes**: See the original thread for bits and pieces of hacking notes.  
+**Status**: I want to be able to recreate the existing work instead of just using the original author's patch so that it can be used for the other games in the collection and its sequel.
 
 # Shin Megami Tensei Devil Children: Black Book (GBC) Translation
 **Info**: While [there already is a translation](https://www.romhacking.net/translations/6163/) for the game, the translation quality was critisized. I managed to find an old, full translated script of the game done by Translator Tom. I asked for permission to use the script as a personal project.  
@@ -50,7 +75,7 @@ So ideally, I'd have to implement some methods to increase the number of possibl
 **Info**: Popful Mail is one of the more underrated titles by Nihon Falcom. There are multiple versions released but the only one that was officially localized (though poorly translated) was the Sega CD version. The PCE-CD version of the game is also popular and recently Forrealsyall made a full [translated playthough](https://www.youtube.com/playlist?list=PLj4ote4X6Yf5svx1ZDcXNomVAGbjJB7NJ) of the game. Which made me interested in trying to hack it to insert their translation. Big thanks to [X-pert74](https://bsky.app/profile/x-pert74.bsky.social) for bringing this to my attention!    
 **Progress**: I found the game's text and managed to edit it. But the font is very large it would be ideal to support ASCII encoding.
 **Notes**: Game uses Shift-JIS encoding.  
-**Status**: I'm technically actively working on this. I will need to look more into this.
+**Status**: I will need to look more into this as I'm not very familliar with HuC6280 assembly.
 
 # Wild Arms: Alter Code F (PS2) Relocalization
 **Info**: The only *Wild Arms* game I've played is the first *Wild Arms* but I'm interested in playing the other games too, including its remake on the PS2. Thanks to [Lime](https://bsky.app/profile/limetimebaby.bsky.social) for letting me know that the game's script could use a better translation, or at least be editted to sound better. The original Japanese release also had voices for the characters in battles that were removed in the English localization so I want to try to restore those voices.  
