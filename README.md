@@ -4,6 +4,10 @@ If you are interested in helping me with any of these projects please [contact m
 Feel free to join [my Hacking Discord server](https://discord.gg/JnqvyDryen) where I plan on posting updates for all my projects.  
 I apologize for the awful notes.
 
+# Erst Kerf (PC) Translation
+**Info**: A really cool shump/dungeon crawler doujin game with a really cool artstyle and soundtrack that I saw my friend Sugunii play. The game seems to have a story but is sadly untranslated so I decided to look into if I could find the text.  
+**Progress**: [**Completed! Check it out!**](https://github.com/Etokapa/Erst-Kerf-English-Translation-Patch) The game has been fully translated thanks to [Etokapa](https://github.com/Etokapa) with some technical assistance by [NightWolve](https://github.com/NightWolve75).
+
 # Ys Book I & II (PCE-CD) Relocalization
 **Info**: Not sure if "relocalization" is the right term but I want to edit the existing localization of the game to use the modern terms used in later *Ys* localizations and releases. Having Dogi be renamed as Colin is funny though  
 **Progress**: Made a [table file](https://github.com/Kaisaan/projects/blob/main/ysbooks_table.tbl) and found the text, I don't think dumping text is needed. I also made a spreadsheet to compare what needs to be changed  
@@ -101,12 +105,6 @@ The filetable posted by Zoinkitty [is still available](https://web.archive.org/w
 **Progress**: I made a pretty basic table file based off of the PC-88 BIOS files and also found the text for the game  
 **Notes**: Nothing to say here  
 **Status**: **Cancelled**, well, only *my* version of the translation project. I found someone that is working on translating the entire PC-88 *Ys* trilogy, so there's no reason for me to continue working on this (they've made much more progress). I'll update this whenever that project is finished
-
-# Erst Kerf (PC) Translation
-**Info**: A really cool shump/dungeon crawler doujin game with a really cool artstyle and soundtrack that I saw my friend Sugunii play. The game seems to have a story but is sadly untranslated so I decided to look into if I could find the text.  
-**Progress**: I found the text but I have no translator.  
-**Notes**: Text for the game can be found in the `date` folder in the indiviual `.scp` files for each stage. The stages' script files seem to just have a `text ""` command which can be changed.  
-**Status**: This is just something I looked into for curiousity. If someone is interested in translating the game it seems pretty simple to do so.
 
 # Witch's Wish (NDS) Sprite Extraction
 **Info**: A game I don't really know much about but my friend wanted to get the sprites extracted as regular image files.  
