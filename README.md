@@ -42,6 +42,12 @@ Using their permission, I made my own version of the extractor. I also made a PK
 **Notes**: The font is `data/font12jp.NFTR` and is in Shift-JIS with variable-width ASCII support. All text files are `.rtz` files in the `scnrts` folder and are LZ10 compressed. The rest of the game's files are in `.narc` archives and use formats that can be opened with [NitroPaint](https://github.com/Garhoogin/NitroPaint).  
 **Status**: I do have some people interested in helping with translating this but with *Lost Kefin* being my main priority I don't want to lead another game right now. So if anyone else wants to pick it up, feel free to do so!
 
+# Gachitora! (PSP) Translation
+**Info**: The full name of the game is *GachiTora! Abarenbou Kyoushi in High School* for the PSP. It's this over-the-top brawl where you play as a Yakuza high school teacher and beat people using words! My friend Etokapa really wanted to see this game get translated one day, so I decided to take a look to see how feasible a full translation of the game is.  
+**Progress**: I found the text of the game and have been able to edit it just fine! The game seems to support English letters just fine with variable-width-font support.  
+**Notes**: Most files that start with `PSP` in the file header are packed archive files. The psp.py script can be used to extract the files from these archives. The text is all encoded in UTF-16-LE and graphics seem to be all [GIM Formatted Images](https://www.psdevwiki.com/ps3/Graphic_Image_Map_(GIM)).  
+**Status**: I think the only thing left for me to look into is to find out what [GIMConv Settings](https://www.psdevwiki.com/ps3/GimConv#How_to_identify_GIM_settings) are used so that the graphics of the game can be re-inserted correctly after editing.
+
 # Ys 1 (X68000) Translation
 **Info**: Wow another *Ys* translation attempt! This version has very interesting in-game artwork and also has titlescreen/boxart made by the legendary Yoshitaka Amano.  
 **Progress**: I didn't get far since it seems that the game's text is compressed.  
