@@ -2,7 +2,6 @@
 Place for me to add projects that I haven't fully committed to for whatever reason.  
 If you are interested in helping me with any of these projects please [contact me](https://kaisaan.github.io/pages/contact).  
 Feel free to join [my Hacking Discord server](https://discord.gg/JnqvyDryen) where I plan on posting updates for all my projects.  
-I apologize for the awful notes.
 
 # Erst Kerf (PC) Translation
 **Info**: A really cool shump/dungeon crawler doujin game with a really cool artstyle and soundtrack that I saw my friend Sugunii play. The game seems to have a story but is sadly untranslated so I decided to look into if I could find the text.  
@@ -33,13 +32,13 @@ I have columns in the [localization changes spreadsheet](https://docs.google.com
 **Notes**: The only different between the normal and the "Tokubetsu Genteiban" releases of *Ys I & II - Eternal Story* is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).  
 *Ys III - Wanderers from Ys* has the extact same file structure as *Ys V* by having `DATA.BIN`, `DATA0.BIN`, and `DATA1.BIN` for all the game's data. The game also uses the same [custom graphics formats](https://github.com/Kaisaan/lostkefin/blob/main/graphicsFormat.md). This should be the easiest to hack next.  
 *Ys IV - Mask of the Sun, A New Theory* has `DAT.PAK` and `DAT.PKI` to store all its gamedata. I found a [script by Silvris](https://github.com/Silvris/RandomScriptsAndTemplates/blob/main/YsDatExtract.py) that extracts them.  
-Using their permission, I made my own version of the extractor. I also made a PKM/PAK/PKI re-inserter but I'm struggling on rebuilding the files perfectly. More research will be needed for these formats.  
+With their permission, I used their cod to make my own extractor. I also made a PKM/PAK/PKI re-inserter but I'm struggling on rebuilding the files perfectly. More research will be needed for these formats.  
 **Status**: I do have some folks willing to work with me for translating these games, but *Lost Kefin* is going to be the main project.
 
 # Summon Night 1 & 2 (NDS) Translations
 **Info**: While I'm not too familliar with the series, my friend wants this game translated so I looked into it.  
 **Progress**: Using [previous](https://gbatemp.net/threads/summon-night-1-translation-project.119735/) [attempts](https://github.com/yutriz/SN1-2_tl_tools) to see how the game works, I was able to get the script files extracted.  
-**Notes**: I used [NitroPacker](https://github.com/haroohie-club/NitroPacker) to unpack the files from the game's ROM. The font is `data/font12jp.NFTR` and is in Shift-JIS encoding with variable-width ASCII support. All text files are `.rtz` files in the `scnrts` folder and are LZ10 compressed. I made [a python script](https://github.com/Kaisaan/projects/blob/main/summ.py) as an example for decompressing and recompressing these files using [ndspy](https://github.com/RoadrunnerWMC/ndspy). The rest of the game's files are in `.narc` archives and use formats that can be opened with [NitroPaint](https://github.com/Garhoogin/NitroPaint).  
+**Notes**: I used [NitroPacker](https://github.com/haroohie-club/NitroPacker) to unpack the files from the game's ROM. The font is `data/font12jp.NFTR` and is in Shift-JIS encoding with variable-width ASCII support. All text files are `.rtz` files in the `scnrts` folder and LZ10 compressed. I made [a python script](https://github.com/Kaisaan/projects/blob/main/summ.py) as an example for decompressing and recompressing these files using [ndspy](https://github.com/RoadrunnerWMC/ndspy). The rest of the game's files are in `.narc` archives and use formats that can be opened with [NitroPaint](https://github.com/Garhoogin/NitroPaint).  
 **Status**: A thread in the [Summon Night Community Discord Server](discord.gg/2FMCTs8) has been made to gather interest. There are some folks that are willing to help with translation. There is also bigbanana23 who has been able to hack the original PS1 version of the game. Since there isn't many improvements in the NDS versions, it seems more people are interesting in getting that version of the game translated, so I'm not sure if I can be of much help, especially since bigbanana23 has has a lot of experience with PS1 hacking such as for *London Seirei Tanteidan* and *Inuyasha* (also *El Dorado Gate* for Dreamcast).
 
 # Gachitora! (PSP) Translation
@@ -67,9 +66,9 @@ Using their permission, I made my own version of the extractor. I also made a PK
 **Status**: I want to be able to recreate the existing work instead of just using the original author's patch so that it can be used for the other games in the collection and its sequel.
 
 # Shin Megami Tensei Devil Children: Black Book (GBC) Translation
-**Info**: While [there already is a translation](https://www.romhacking.net/translations/6163/) for the game, the translation quality was critisized. I managed to find an old, full translated script of the game done by Translator Tom. I asked for permission to use the script as a personal project.  
+**Info**: While [there already is a translation](https://www.romhacking.net/translations/6163/) for the game, the translation quality was criticized. I managed to find an old, full translated script of the game done by Translator Tom. I asked for permission to use the script as a personal project.  
 **Progress**: I was able to get most of the Japanese script dumped and inserted the first few lines of the game.  
-I got in contact with [Specialagentape](https://www.romhacking.net/community/5916/), the hacker and editor of the original project. They explained to me that most of the script that their translator [Higsby](https://www.romhacking.net/community/2697/) worked on had to be trimmed down a lot due to the limitted space that the Gameboy (Colour) screen has. This is completely understandable on their end.  
+I got in contact with [Specialagentape](https://www.romhacking.net/community/5916/), the hacker and editor of the original project. They explained to me that most of the script that their translator [Higsby](https://www.romhacking.net/community/2697/) worked on had to be trimmed down a lot due to the limited space that the Gameboy (Colour) screen has. This is completely understandable on their end.  
 I also got in contact with Tom for permission to use their old English translation. They wanted me to not release anything if I do use their script, but if I ever finished up anything, they would be willing to make a new translated script.  
 So ideally, I'd have to implement some methods to increase the number of possible letters on a screen, such as implementing a Variable Width Font (VWF) routine.    
 **Notes**: I used the [ROMhacking tutorials by Bunkai](https://www.romhacking.net/community/7232/) to help with hacking the game. My files for this project were a complete mess.  
@@ -81,16 +80,16 @@ So ideally, I'd have to implement some methods to increase the number of possibl
 **Notes**: None
 **Status**: If I can get better at hacking Japanese PCs like the PC-88, or even the Sharp X1 and FM-7, I can translate the game. It's a shame that there isn't that many resources for hacking these systems.
 
-# Popful Mail (PCE-CD) Tranlsation
+# Popful Mail (PCE-CD) Translation
 **Info**: Popful Mail is one of the more underrated titles by Nihon Falcom. There are multiple versions released but the only one that was officially localized (though poorly translated) was the Sega CD version. The PCE-CD version of the game is also popular and recently Forrealsyall made a full [translated playthough](https://www.youtube.com/playlist?list=PLj4ote4X6Yf5svx1ZDcXNomVAGbjJB7NJ) of the game. Which made me interested in trying to hack it to insert their translation. Big thanks to [X-pert74](https://bsky.app/profile/x-pert74.bsky.social) for bringing this to my attention!    
 **Progress**: I found the game's text and managed to edit it. But the font is very large it would be ideal to support ASCII encoding.
 **Notes**: Game uses Shift-JIS encoding.  
 **Status**: I will need to look more into this as I'm not very familliar with HuC6280 assembly.
 
 # Wild Arms: Alter Code F (PS2) Relocalization
-**Info**: The only *Wild Arms* game I've played is the first *Wild Arms* but I'm interested in playing the other games too, including its remake on the PS2. Thanks to [Lime](https://bsky.app/profile/limetimebaby.bsky.social) for letting me know that the game's script could use a better translation, or at least be editted to sound better. The original Japanese release also had voices for the characters in battles that were removed in the English localization so I want to try to restore those voices.  
+**Info**: The only *Wild Arms* game I've played is the first *Wild Arms* but I'm interested in playing the other games too, including its remake on the PS2. Thanks to [Lime](https://bsky.app/profile/limetimebaby.bsky.social) for letting me know that the game's script could use a better translation, or at least be edited to sound better. The original Japanese release also had voices for the characters in battles that were removed in the English localization so I want to try to restore those voices.  
 **Progress**: I found the game's text and the game still seems to have the voice files, I just need to find a way to make them play in-game.  
-**Notes**: Game uses Shift-JIS encoding(?) for its text. Many files are idential between USA and JAP releases.  
+**Notes**: Game uses Shift-JIS encoding(?) for its text. Many files are identical between USA and JAP releases.  
 **Status**: I'm still working on this.  
 
 # Neon Genesis Evangelion (N64) Translation
