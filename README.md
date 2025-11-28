@@ -92,24 +92,30 @@ So ideally, I'd have to implement some methods to increase the number of possibl
 **Notes**: Game uses Shift-JIS encoding.  
 **Status**: I will need to look more into this as I'm not very familliar with HuC6280 assembly.
 
+# Wizardry XTH: Academy of Frontier (PS2) Translation
+**Info**: This is another game that my great friend Sugunii wants to see in English. This game also has a sequel, *Wizardry XTH 2: Unlimited Students*, also for the PS2.  
+**Progress**: I was able to find some of the text and was able to insert in English text.  
+**Notes**: Game uses Shift-JIS encoding with support for halfwidth ASCII letters.  
+**Status**: I would like to return to this eventually.
+
 # Wild Arms: Alter Code F (PS2) Relocalization
 **Info**: The only *Wild Arms* game I've played is the first *Wild Arms* but I'm interested in playing the other games too, including its remake on the PS2. Thanks to [Lime](https://bsky.app/profile/limetimebaby.bsky.social) for letting me know that the game's script could use a better translation, or at least be edited to sound better. The original Japanese release also had voices for the characters in battles that were removed in the English localization so I want to try to restore those voices.  
 **Progress**: I found the game's text and the game still seems to have the voice files, I just need to find a way to make them play in-game.  
 **Notes**: Game uses Shift-JIS encoding(?) for its text. Many files are identical between USA and JAP releases.  
-**Status**: I'm still working on this.  
+**Status**: I would like to return to this eventually.  
 
 # Neon Genesis Evangelion (N64) Translation
 **Info**: I have beat this game in full once thanks to the [multiple guides on GameFAQs](https://gamefaqs.gamespot.com/n64/198127-neon-genesis-evangelion/faqs) but I still want to have this game translated, especially since there are many other translated *Evangelion* games  
 **Progress**: Zoinkitty has posted a file inserter and character font before on the [ROMhacking.net forums](https://web.archive.org/web/20201202192730/https://www.romhacking.net/forum/index.php?topic=22265.0) but the download links do not work any more.  
-The filetable posted by Zoinkitty [is still available](https://web.archive.org/web/20170806110531/https://pastebin.com/Vt6SxCD3). Interestingly, a Korean translation of the game [did release](https://www.romhacking.net/translations/6260/) but by different people (and not OP)  
+The filetable posted by Zoinkitty [is still available](https://web.archive.org/web/20170806110531/https://pastebin.com/Vt6SxCD3). Interestingly, a Korean translation of the game [was released](https://www.romhacking.net/translations/6260/) but by different people (and not OP).  
 **Notes**: None from me.  
-**Status**: I might return to this eventually, but hopefully an N64 hacking expert like Zoinkitty tackles this instead
+**Status**: I might return to this eventually, but hopefully an N64 hacking expert like Zoinkitty tackles this instead.
 
 # Gekisou Sentai Carranger: Zenkai! Racer Senshi (SFC) Translation
 **Info**: I only know about this game because of the music track [*Select Your Carranger!](https://www.youtube.com/watch?v=8AS-8wsledg) but still I want to try translating this game eventually  
 **Progress**: I haven't found any of the text graphics or text itself  
 **Notes**: None  
-**Status**: I will need to learn more about 65c816 assembly to hack this game
+**Status**: I will need to learn more about 65c816 assembly to hack this game.
 
 # Ys I: Ancient Ys Vanished (PC-88) Translation
 **Info**: I think by now you can tell that I really like Ys, so I wanted to see what I could get translation hacks going for.  
