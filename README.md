@@ -81,7 +81,7 @@ So ideally, I'd have to implement some methods to increase the number of possibl
 **Notes**: I used the [ROMhacking tutorials by Bunkai](https://www.romhacking.net/community/7232/) to help with hacking the game. My files for this project were a complete mess.  
 **Status**: I might return to this one day and also try hacking the counterpart game *Red Book* or its sequel game *White Book*. Hopefully we see more *Devil Children* translations in general since there's still a good few games left untranslated.
 
-# Digitial Devil Story: Megami Tensei (PC-88) Translation
+# Digital Devil Story: Megami Tensei (PC-88) Translation
 **Info**: After I successfully made a full translation of [the MSX version of the game](https://www.romhacking.net/translations/7180/) I wanted to try translating the other versions since the MSX release is distinct from the others. Since I had already beat the PC-88 version I wanted to try translating that.  
 **Progress**: With the help of MKCA, we were able to make a full table file for all the characters used in the PC-88 BIOS files, including the Kanji tables.  
 The text for the game was found and I was able to edit it. The issue is that there is a lack of space available to add longer text or even use non-fullwidth characters. This would result in a pretty cut-down, simplified translation.  
@@ -92,7 +92,7 @@ The text for the game was found and I was able to edit it. The issue is that the
 **Info**: Popful Mail is one of the more underrated titles by Nihon Falcom. There are multiple versions released but the only one that was officially localized (though poorly translated) was the Sega CD version. The PCE-CD version of the game is also popular and recently Forrealsyall made a full [translated playthough](https://www.youtube.com/playlist?list=PLj4ote4X6Yf5svx1ZDcXNomVAGbjJB7NJ) of the game. Which made me interested in trying to hack it to insert their translation. Big thanks to [X-pert74](https://bsky.app/profile/x-pert74.bsky.social) for bringing this to my attention!    
 **Progress**: I found the game's text and managed to edit it. But the font is very large it would be ideal to support ASCII encoding.
 **Notes**: Game uses Shift-JIS encoding.  
-**Status**: I will need to look more into this as I'm not very familliar with HuC6280 assembly.
+**Status**: I will need to look more into this as I'm not very familiar with HuC6280 assembly.
 
 # Wizardry XTH: Academy of Frontier (PS2) Translation
 **Info**: This is another game that my great friend Sugunii wants to see in English. This game also has a sequel, *Wizardry XTH 2: Unlimited Students*, also for the PS2.  
@@ -148,7 +148,7 @@ The wonderful folks that worked on this translation also plan on translating the
 **Notes**: None  
 **Status**: I guess this is considered complete? Once NitroPaint has the function to export NANR animations as .GIF files, extracting the character animations would be faster.
 
-# A Witch's Tale (NDS) Script Extraction
+# A Witch's Tale (NDS) Sprite Extraction
 **Info**: Same thing with *Witch's Wish* my friend wanted to extract the graphics of the game because they love the cute artstyle.  
 **Progress**: I couldn't do much, the game has a lot of overlays and a single `romfile.bin` so I'd have to do some more manual work to extract the sprites.  
 **Notes**: None  
