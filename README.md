@@ -47,7 +47,9 @@ While this script does not support re-insertion of DAT.PAK/DAT.PKI or extraction
 # Gachitora! (PSP) Translation
 **Info**: The full name of the game is *GachiTora! Abarenbou Kyoushi in High School* for the PSP. It's this over-the-top brawl where you play as a Yakuza high school teacher and beat people using words! My friend Etokapa really wanted to see this game get translated one day, so I decided to take a look to see how feasible a full translation of the game is.  
 **Progress**: I found the text of the game and have been able to edit it just fine! The game seems to support English letters just fine with variable-width-font support.  
-**Notes**: Most files that start with `PSP` in the file header are packed archive files. The [psp.py script](https://github.com/Kaisaan/projects/blob/main/psp.py) can be used to extract the files from these archives. The text is all encoded in UTF-16-LE and graphics seem to be all [GIM Formatted Images](https://www.psdevwiki.com/ps3/Graphic_Image_Map_(GIM)).  
+**Notes**: Most files that start with `PSP` in the file header are packed archive files. The [psp.py script](https://github.com/Kaisaan/projects/blob/main/psp.py) can be used to extract the files from these archives.  
+Files that start with `ZAR` seem to be a for text files. I have [documented some findings](https://github.com/Kaisaan/projects/blob/main/pspformat.png) but more research will be needed.  
+The text is all encoded in UTF-16-LE. Graphics seem to be all [GIM Formatted Images](https://www.psdevwiki.com/ps3/Graphic_Image_Map_(GIM)).   
 **Status**: I need to updated psp.py to include support for repacking files. I also need to find out what [GIMConv Settings](https://www.psdevwiki.com/ps3/GimConv#How_to_identify_GIM_settings) are used so that the graphics of the game can be re-inserted correctly after editing.
 
 # Densetsu no Starfy 4 (NDS) Translation
