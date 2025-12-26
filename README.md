@@ -114,6 +114,14 @@ I looked into it myself and found it to be *very* simple to insert a translation
 **Status**: It's not quite clear if there is anyone actively working on translating the rest of this game.  
 If there is anyone interested in translating the game then I can help with the technical side of things.
 
+# Twilight Syndrome: Kinjirareta Toshi Densetsu (NDS) Translation 
+**Info**: The *Twilight Syndrome* games are one of the most highly requested games to be translated. While there seems to be work being done on the first two PS1 games and also *Moonlight Syndrome*.  
+There doesn't seem to be any work done on the DS title so I decided to look into the game myself to see if there's any documentation I can do to bring awareness.  
+**Progress**: I found the game's text but it seems that the font will need to be edited to include Shift-JIS support, or a different game's font can be used altogether.  
+The strings in the game don't seem to be ordered so there will need to be more work to properly dump everything in a sorted order.  
+**Notes**: All the game's text is located in the `arm9.bin` file with Shift-JIS encoding. The graphics and font files can be edited with NitroPaint.  
+**Status**: This is one of the many games that I just want to document its hacking-viability so that maybe someone can come along and get this game translated.  
+
 # Neon Genesis Evangelion (N64) Translation
 **Info**: I have beat this game in full once thanks to the [multiple guides on GameFAQs](https://gamefaqs.gamespot.com/n64/198127-neon-genesis-evangelion/faqs) but I still want to have this game translated, especially since there are many other translated *Evangelion* games  
 **Progress**: Zoinkitty has posted a file inserter and character font before on the [ROMhacking.net forums](https://web.archive.org/web/20201202192730/https://www.romhacking.net/forum/index.php?topic=22265.0) but the download links do not work any more.  
