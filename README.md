@@ -66,8 +66,8 @@ With their permission, I used their cod to make my own extractor. I also made a 
 **Notes**: Game uses Shift-JIS encoding.
 **Status**: The game only supporting full-width text will cause issues with fitting an accurate translation, but if I can get a translation of the game then I'll try to insert it.
 
-# Falcom Classics (SAT) Translation
-**Info**: Guess which game in this collection I wanted to get translated. I only looked into this since the author of the [current existing translation](https://segaxtreme.net/threads/translating-ys-1.25212/) had disappeared without releasing any of the files.  
+# Falcom Classics 1 & 2 (SAT) Translation
+**Info**: Guess which games in these collections I wanted to get translated? That's right, *Ys I & II*! I only looked into this since the author of the [current existing translation of *Ys I*](https://segaxtreme.net/threads/translating-ys-1.25212/) had disappeared without releasing any of the files.  
 **Progress**: I made a table file that only includes the English letters.  
 **Notes**: See the original thread for bits and pieces of hacking notes.  
 **Status**: I want to be able to recreate the existing work instead of just using the original author's patch so that it can be used for the other games in the collection and its sequel.
