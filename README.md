@@ -1,5 +1,6 @@
 # Projects
 Place for me to add projects that I haven't fully committed to for whatever reason.  
+Also a place for me to document findings in games I've been tinkering with.  
 If you are interested in helping me with any of these projects please [contact me](https://kaisaan.github.io/pages/contact).  
 Feel free to join [my Hacking Discord server](https://discord.gg/JnqvyDryen) where I plan on posting updates for all my projects.  
 
