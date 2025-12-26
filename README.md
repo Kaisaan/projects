@@ -113,15 +113,15 @@ The filetable posted by Zoinkitty [is still available](https://web.archive.org/w
 **Status**: I might return to this eventually, but hopefully an N64 hacking expert like Zoinkitty tackles this instead.
 
 # Gekisou Sentai Carranger: Zenkai! Racer Senshi (SFC) Translation
-**Info**: I only know about this game because of the music track [*Select Your Carranger!](https://www.youtube.com/watch?v=8AS-8wsledg) but still I want to try translating this game eventually  
+**Info**: I only know about this game because of the music track [*Select Your Carranger!](https://www.youtube.com/watch?v=8AS-8wsledg) but still I want to try translating this game eventually.  
 **Progress**: I haven't found any of the text graphics or text itself  
 **Notes**: None  
 **Status**: I will need to learn more about 65c816 assembly to hack this game.
 
 # Ys I: Ancient Ys Vanished (PC-88) Translation
 **Info**: I think by now you can tell that I really like Ys, so I wanted to see what I could get translation hacks going for.  
-**Progress**: I made a pretty basic table file based off of the PC-88 BIOS files and also found the text for the game  
-**Notes**: Nothing to say here  
+**Progress**: I made a pretty basic table file based off of the PC-88 BIOS files and also found the text for the game.  
+**Notes**: None.  
 **Status**: **Cancelled**, well, only *my* version of the translation project. I found someone that is working on translating the entire PC-88 *Ys* trilogy, so there's no reason for me to continue working on this (they've made much more progress). I'll update this whenever that project is finished
 
 # Witch's Wish (NDS) Sprite Extraction
