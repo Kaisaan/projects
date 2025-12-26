@@ -137,3 +137,11 @@ The wonderful folks that worked on this translation also plan on translating the
 **Progress**: I couldn't do much, the game has a lot of overlays and a single `romfile.bin` so I'd have to do some more manual work to extract the sprites.  
 **Notes**: None  
 **Status**: Even though I didn't get much done I still wanted to add it here so I can get into the habit of posting about future tinkering with other games.
+
+<!--
+# Name 
+**Info**:  
+**Progress**:  
+**Notes**:  
+**Status**:  
+-->
