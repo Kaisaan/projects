@@ -106,6 +106,14 @@ The text for the game was found and I was able to edit it. The issue is that the
 **Notes**: Game uses Shift-JIS encoding(?) for its text. Many files are identical between USA and JAP releases.  
 **Status**: I would like to return to this eventually.  
 
+# Cross Treasures (NDS) Translation 
+**Info**: I found about this game in this very useful thread of [unfinished NDS translation projects that could be revived](https://gbatemp.net/threads/unfinished-translation-projects-that-could-be-revived.544922/) and saw this game.  
+I looked into it myself and found it to be *very* simple to insert a translation in.  
+**Progress**: The latest patch was released [in 2025, February 14th](https://gbatemp.net/threads/cross-treasures-branch-translation.231245/post-6624370) but a lot of the [story, dialogue, descriptions, images, and more are left untranslated](https://www.gamebrew.org/wiki/Cross_Treasures_DS_-_English_Translation#Changelog)  
+**Notes**: Unpacking the game's ROM shows that the script files are all literally just `.txt` text files. A lot of the graphics also use common filetypes that can be dealt with by NitroPaint.  
+**Status**: It's not quite clear if there is anyone actively working on translating the rest of this game.  
+If there is anyone interested in translating the game then I can help with the technical side of things.
+
 # Neon Genesis Evangelion (N64) Translation
 **Info**: I have beat this game in full once thanks to the [multiple guides on GameFAQs](https://gamefaqs.gamespot.com/n64/198127-neon-genesis-evangelion/faqs) but I still want to have this game translated, especially since there are many other translated *Evangelion* games  
 **Progress**: Zoinkitty has posted a file inserter and character font before on the [ROMhacking.net forums](https://web.archive.org/web/20201202192730/https://www.romhacking.net/forum/index.php?topic=22265.0) but the download links do not work any more.  
