@@ -33,7 +33,9 @@ I have columns in the [localization changes spreadsheet](https://docs.google.com
 **Notes**: The only different between the normal and the "Tokubetsu Genteiban" releases of *Ys I & II - Eternal Story* is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).  
 *Ys III - Wanderers from Ys* has the extact same file structure as *Ys V* by having `DATA.BIN`, `DATA0.BIN`, and `DATA1.BIN` for all the game's data. The game also uses the same [custom graphics formats](https://github.com/Kaisaan/lostkefin/blob/main/graphicsFormat.md). This should be the easiest to hack next.  
 *Ys IV - Mask of the Sun, A New Theory* has `DAT.PAK` and `DAT.PKI` to store all its gamedata. I found a [script by Silvris](https://github.com/Silvris/RandomScriptsAndTemplates/blob/main/YsDatExtract.py) that extracts them.  
-With their permission, I used their cod to make my own extractor. I also made a PKM/PAK/PKI re-inserter but I'm struggling on rebuilding the files perfectly. More research will be needed for these formats.  
+With their permission, I used their code to make my own extractor. I also made a PKM/PAK/PKI re-inserter but I'm struggling on rebuilding the files perfectly.  
+Since this game was primarily developed by Arc System Works, it turns out the game's filepacking format was reused in *Guilty Gear 2: Overture* and I was able to find a [different script that extracts the game's DAT.PAK & DAT.PKI files](https://gitlab.com/backyardtools/overture/prototypes#unpkmpy) by [Jill](https://jillcrungus.com/).  
+While this script does not support re-insertion of DAT.PAK/DAT.PKI or extraction of the game's PKM files, I did find that Jill made some [documentation on the PKM format](https://gitlab.com/backyardtools/overture/documentation/-/blob/master/formats/PKM.md?ref_type=heads). Though more research will be needed to see how *A New Theory* handles these file formats.  
 **Status**: I do have some folks willing to work with me for translating these games, but *Lost Kefin* is going to be the main project.
 
 # Summon Night 1 & 2 (NDS) Translations
