@@ -82,8 +82,9 @@ So ideally, I'd have to implement some methods to increase the number of possibl
 
 # Digitial Devil Story: Megami Tensei (PC-88) Translation
 **Info**: After I successfully made a full translation of [the MSX version of the game](https://www.romhacking.net/translations/7180/) I wanted to try translating the other versions since the MSX release is distinct from the others. Since I had already beat the PC-88 version I wanted to try translating that.  
-**Progress**: With the help of MKCA, we were able to make a full table file for all the characters used in the PC-88 BIOS files, including the Kanji tables. The text for the game was found and I was able to edit it. The issue is that there is a lack of space available to add longer text or even use non-fullwidth characters.  
-**Notes**: None
+**Progress**: With the help of MKCA, we were able to make a full table file for all the characters used in the PC-88 BIOS files, including the Kanji tables.  
+The text for the game was found and I was able to edit it. The issue is that there is a lack of space available to add longer text or even use non-fullwidth characters. This would result in a pretty cut-down, simplified translation.  
+**Notes**: None.  
 **Status**: If I can get better at hacking Japanese PCs like the PC-88, or even the Sharp X1 and FM-7, I can translate the game. It's a shame that there isn't that many resources for hacking these systems.
 
 # Popful Mail (PCE-CD) Translation
