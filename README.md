@@ -51,8 +51,8 @@ With their permission, I used their cod to make my own extractor. I also made a 
 # Densetsu no Starfy 4 (NDS) Translation
 **Info**: This is one of those games that I got interested in thanks to the [translation playthrough by Autumchild](https://www.youtube.com/playlist?list=PLaln0JC7Av9_Pu8Wf0xQ3cLb1Mt3BUnJO). There is also another [translation playthrough by SomeUselessTranslations](https://www.youtube.com/playlist?list=PLA7NjZIk-WKXtputhikW1T_eVPxJNCHMR). The Starfy wiki has a rough [text dump](https://www.starfywiki.org/wiki/Densetsu_no_Starfy_4/Text_dump) of the game.  
 **Progress**: I found the text in the game but there is seemingly no support for English letters. The game also uses custom file formats that I would need to figure out.  
-**Notes**: Text is all in the game's overlays and encoding in Shift-JIS with no ASCII support. Files in the `Bg_Standard` folder are all LZSS compressed and have custom file formats (`NCG` for graphics, `NCL` for palettes, `NSC` for tilesets). There are files in the `Font` folder that have the font graphics in an unknown format.  
-**Status**: I need to figure out the graphics formats to see if I can add in English letters fine. And then I will need to figure out the script format. If I can get this far then I'll ask for permission to use the translation work from their translated playthroughs.
+**Notes**: Text is all in the game's overlays and encoding in Shift-JIS with no ASCII support. Files in the `Bg_Standard` folder are all LZSS compressed and can be edited with NitroPaint. There are files in the `Font` folder that have the font graphics in an unknown format.  
+**Status**: I need to figure out the font file formats to see if I can add in English letters fine and then I will need to figure out the script format. If I can get this far then I'll ask for permission to use the translation work from the translated playthroughs.
 
 # Ys 1 (X68000) Translation
 **Info**: Wow another *Ys* translation attempt! This version has very interesting in-game artwork and also has titlescreen/boxart made by the legendary Yoshitaka Amano.  
