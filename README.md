@@ -122,7 +122,8 @@ The filetable posted by Zoinkitty [is still available](https://web.archive.org/w
 **Info**: I think by now you can tell that I really like Ys, so I wanted to see what I could get translation hacks going for.  
 **Progress**: I made a pretty basic table file based off of the PC-88 BIOS files and also found the text for the game.  
 **Notes**: None.  
-**Status**: **Cancelled**, well, only *my* version of the translation project. I found someone that is working on translating the entire PC-88 *Ys* trilogy, so there's no reason for me to continue working on this (they've made much more progress). I'll update this whenever that project is finished
+**Status**: [**Cancelled due to another group releasing a translation! Check it out!**](https://romhack.ing/database/content/entry/f6HFH-U9Q0qH6xr-nXsDZw/ys-1-pc88-english-translation) Note that this is *not* my work.  
+The wonderful folks that worked on this translation also plan on translating the rest of the *Ys* PC-88 trilogy so stay tuned for that!
 
 # Witch's Wish (NDS) Sprite Extraction
 **Info**: A game I don't really know much about but my friend wanted to get the sprites extracted as regular image files.  
