@@ -41,7 +41,7 @@ While this script does not support re-insertion of DAT.PAK/DAT.PKI or extraction
 # Summon Night 1 & 2 (NDS) Translations
 **Info**: While I'm not too familliar with the series, my friend wants this game translated so I looked into it.  
 **Progress**: Using [previous](https://gbatemp.net/threads/summon-night-1-translation-project.119735/) [attempts](https://github.com/yutriz/SN1-2_tl_tools) to see how the game works, I was able to get the script files extracted.  
-**Notes**: I used [NitroPacker](https://github.com/haroohie-club/NitroPacker) to unpack the files from the game's ROM. The font is `data/font12jp.NFTR` and is in Shift-JIS encoding with variable-width ASCII support. All text files are `.rtz` files in the `scnrts` folder and LZ10 compressed. I made [a python script](https://github.com/Kaisaan/projects/blob/main/summ.py) as an example for decompressing and recompressing these files using [ndspy](https://github.com/RoadrunnerWMC/ndspy). The rest of the game's files are in `.narc` archives and use formats that can be opened with [NitroPaint](https://github.com/Garhoogin/NitroPaint).  
+**Notes**: I used NitroPacker[^1] to unpack the files from the game's ROM. The font is `data/font12jp.NFTR` and is in Shift-JIS encoding with variable-width ASCII support. All text files are `.rtz` files in the `scnrts` folder and LZ10 compressed. I made [a python script](https://github.com/Kaisaan/projects/blob/main/summ.py) as an example for decompressing and recompressing these files using [ndspy](https://github.com/RoadrunnerWMC/ndspy). The rest of the game's files are in `.narc` archives and use formats that can be opened with NitroPaint[^2].  
 **Status**: Folks in the [Summon Night Community Discord Server](discord.gg/2FMCTs8) have gathered together to work on the PS1 version of the game. Since the DS Port removes voice acting among other changes, the PS1 version is preferred.  Also a lot of work has been done already by a few people in terms of both hacking and translating the game. So a port of the script to the DS release can maybe be done later.  
 
 # Gachitora! (PSP) Translation
@@ -55,7 +55,7 @@ The text is all encoded in UTF-16-LE. Graphics seem to be all [GIM Formatted Ima
 # Densetsu no Starfy 4 (NDS) Translation
 **Info**: This is one of those games that I got interested in thanks to the [translation playthrough by Autumchild](https://www.youtube.com/playlist?list=PLaln0JC7Av9_Pu8Wf0xQ3cLb1Mt3BUnJO). There is also another [translation playthrough by SomeUselessTranslations](https://www.youtube.com/playlist?list=PLA7NjZIk-WKXtputhikW1T_eVPxJNCHMR). The Starfy wiki has a rough [text dump](https://www.starfywiki.org/wiki/Densetsu_no_Starfy_4/Text_dump) of the game.  
 **Progress**: I found the text in the game but there is seemingly no support for English letters. The game also uses custom file formats that I would need to figure out.  
-**Notes**: Text is all in the game's overlays and encoding in Shift-JIS with no ASCII support. Files in the `Bg_Standard` folder are all LZSS compressed and can be edited with NitroPaint. There are files in the `Font` folder that have the font graphics in an unknown format.  
+**Notes**: Text is all in the game's overlays and encoding in Shift-JIS with no ASCII support. Files in the `Bg_Standard` folder are all LZSS compressed and can be edited with NitroPaint[^2]. There are files in the `Font` folder that have the font graphics in an unknown format.  
 **Status**: I need to figure out the font file formats to see if I can add in English letters fine and then I will need to figure out the script format. If I can get this far then I'll ask for permission to use the translation work from the translated playthroughs.
 
 # Ys 1 (X68000) Translation
@@ -114,7 +114,7 @@ The text for the game was found and I was able to edit it. The issue is that the
 **Info**: I found about this game in this very useful thread of [unfinished NDS translation projects that could be revived](https://gbatemp.net/threads/unfinished-translation-projects-that-could-be-revived.544922/) and saw this game.  
 I looked into it myself and found it to be *very* simple to insert a translation in.  
 **Progress**: The latest patch was released [in 2025, February 14th](https://gbatemp.net/threads/cross-treasures-branch-translation.231245/post-6624370) but a lot of the [story, dialogue, descriptions, images, and more are left untranslated](https://www.gamebrew.org/wiki/Cross_Treasures_DS_-_English_Translation#Changelog)  
-**Notes**: Unpacking the game's ROM shows that the script files are all literally just `.txt` text files. A lot of the graphics also use common filetypes that can be dealt with by NitroPaint.  
+**Notes**: Unpacking the game's ROM shows that the script files are all literally just `.txt` text files. A lot of the graphics also use common filetypes that can be dealt with by NitroPaint[^2].  
 **Status**: It's not quite clear if there is anyone actively working on translating the rest of this game.  
 If there is anyone interested in translating the game then I can help with the technical side of things.
 
@@ -123,7 +123,7 @@ If there is anyone interested in translating the game then I can help with the t
 There doesn't seem to be any work done on the DS title so I decided to look into the game myself to see if there's any documentation I can do to bring awareness.  
 **Progress**: I found the game's text but it seems that the font will need to be edited to include Shift-JIS support, or a different game's font can be used altogether.  
 The strings in the game don't seem to be ordered so there will need to be more work to properly dump everything in a sorted order.  
-**Notes**: All the game's text is located in the `arm9.bin` file with Shift-JIS encoding. The graphics and font files can be edited with NitroPaint.  
+**Notes**: All the game's text is located in the `arm9.bin` file with Shift-JIS encoding. The graphics and font files can be edited with NitroPaint[^2].  
 **Status**: This is one of the many games that I just want to document its hacking-viability so that maybe someone can come along and get this game translated.  
 
 # Neon Genesis Evangelion (N64) Translation
@@ -148,7 +148,7 @@ The wonderful folks that worked on this translation also plan on translating the
 
 # Witch's Wish (NDS) Sprite Extraction
 **Info**: A game I don't really know much about but my friend wanted to get the sprites extracted as regular image files.  
-**Progress**: After unpacking the ROM with [NitroPacker](https://github.com/haroohie-club/NitroPacker) I was able to find the characters' graphics in `data/2d/cast` as file formats that were recognized by [NitroPaint](https://github.com/Garhoogin/NitroPaint) and was able to extract.  
+**Progress**: After unpacking the ROM with NitroPacker[^1] I was able to find the characters' graphics in `data/2d/cast` as file formats that were recognized by NitroPaint[^2] and was able to extract.  
 **Notes**: None  
 **Status**: I guess this is considered complete? Once NitroPaint has the function to export NANR animations as .GIF files, extracting the character animations would be faster.
 
@@ -157,6 +157,10 @@ The wonderful folks that worked on this translation also plan on translating the
 **Progress**: I couldn't do much, the game has a lot of overlays and a single `romfile.bin` so I'd have to do some more manual work to extract the sprites.  
 **Notes**: None  
 **Status**: Even though I didn't get much done I still wanted to add it here so I can get into the habit of posting about future tinkering with other games.
+
+[^1]: [**NitroPacker**](https://github.com/haroohie-club/NitroPacker), a tool to extract the contents of a DS game's ROM file.
+[^2]: [**NitroPaint**](https://github.com/Garhoogin/NitroPaint), a tool to view, export, edit, and import various common graphics files for DS games.
+
 
 <!--
 # Name 
