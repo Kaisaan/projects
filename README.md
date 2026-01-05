@@ -5,8 +5,10 @@ If you are interested in helping me with any of these projects please [contact m
 Feel free to join [my Hacking Discord server](https://discord.gg/JnqvyDryen) where I plan on posting updates for all my projects.  
 
 # Erst Kerf (PC) Translation
-**Info**: A really cool shump/dungeon crawler doujin game with a really cool artstyle and soundtrack that I saw my friend Sugunii play. The game seems to have a story but is sadly untranslated so I decided to look into if I could find the text.  
-**Progress**: [**Completed! Check it out!**](https://github.com/Etokapa/Erst-Kerf-English-Translation-Patch) The game has been fully translated thanks to [Etokapa](https://github.com/Etokapa) with some technical assistance by [NightWolve](https://github.com/NightWolve75).
+**Info**: A really cool STG/dungeon crawler doujin game with a really cool presentation and soundtrack that I saw my friend Sugunii play. The game seems to have a story but is sadly untranslated so I decided to look into if I could find the text.  
+**Progress**: [**Completed! Check it out!**](https://github.com/Etokapa/Erst-Kerf-English-Translation-Patch) The game has been fully translated thanks to [Etokapa](https://github.com/Etokapa) with some technical assistance by [NightWolve](https://github.com/NightWolve75).  
+**Notes**: Check out the Github for documentation on editing the game's graphics and text.  
+**Status**: While the current version is at 0.1, there has not been any reported issues with the game and the translation is fully playable in English now!
 
 # Ys Book I & II (PCE-CD) Relocalization
 **Info**: Not sure if "relocalization" is the right term but I want to edit the existing localization of the game to use the modern terms used in later *Ys* localizations and releases. Having Dogi be renamed as Colin is funny though  
@@ -42,7 +44,7 @@ While this script does not support re-insertion of DAT.PAK/DAT.PKI or extraction
 **Info**: While I'm not too familliar with the series, my friend wants this game translated so I looked into it.  
 **Progress**: Using [previous](https://gbatemp.net/threads/summon-night-1-translation-project.119735/) [attempts](https://github.com/yutriz/SN1-2_tl_tools) to see how the game works, I was able to get the script files extracted.  
 **Notes**: I used NitroPacker[^1] to unpack the files from the game's ROM. The font is `data/font12jp.NFTR` and is in Shift-JIS encoding with variable-width ASCII support. All text files are `.rtz` files in the `scnrts` folder and LZ10 compressed. I made [a python script](https://github.com/Kaisaan/projects/blob/main/summ.py) as an example for decompressing and recompressing these files using [ndspy](https://github.com/RoadrunnerWMC/ndspy). The rest of the game's files are in `.narc` archives and use formats that can be opened with NitroPaint[^2].  
-**Status**: Folks in the [Summon Night Community Discord Server](discord.gg/2FMCTs8) have gathered together to work on the PS1 version of the game. Since the DS Port removes voice acting among other changes, the PS1 version is preferred.  Also a lot of work has been done already by a few people in terms of both hacking and translating the game. So a port of the script to the DS release can maybe be done later.  
+**Status**: Folks in the [Summon Night Community Discord Server](discord.gg/2FMCTs8) have gathered together to work on the PS1 version of the game. Since the DS Port removes voice acting among other changes, the PS1 version is preferred. Also a lot of work has been done already by a few people in terms of both hacking and translating the game. So a port of the script to the DS release can maybe be done later.  
 
 # Gachitora! (PSP) Translation
 **Info**: The full name of the game is *GachiTora! Abarenbou Kyoushi in High School* for the PSP. It's this over-the-top brawl where you play as a Yakuza high school teacher and beat people using words! My friend Etokapa really wanted to see this game get translated one day, so I decided to take a look to see how feasible a full translation of the game is.  
@@ -96,7 +98,7 @@ The text for the game was found and I was able to edit it. The issue is that the
 **Info**: Popful Mail is one of the more underrated titles by Nihon Falcom. There are multiple versions released but the only one that was officially localized (though poorly translated) was the Sega CD version. The PCE-CD version of the game is also popular and recently Forrealsyall made a full [translated playthough](https://www.youtube.com/playlist?list=PLj4ote4X6Yf5svx1ZDcXNomVAGbjJB7NJ) of the game. Which made me interested in trying to hack it to insert their translation. Big thanks to [X-pert74](https://bsky.app/profile/x-pert74.bsky.social) for bringing this to my attention!    
 **Progress**: I found the game's text and managed to edit it. But the font is very large it would be ideal to support ASCII encoding.
 **Notes**: Game uses Shift-JIS encoding.  
-**Status**: I will need to look more into this as I'm not very familiar with HuC6280 assembly.
+**Status**: The game is currently getting an English fandub! As for translating the text in the game, I would need to rewrite the printing routine to allow for smaller letters and longer text. I will need more time to look more into this as I'm not very familiar with HuC6280 assembly.
 
 # Wizardry XTH: Academy of Frontier (PS2) Translation
 **Info**: This is another game that my great friend Sugunii wants to see in English. This game also has a sequel, *Wizardry XTH 2: Unlimited Students*, also for the PS2.  
@@ -150,7 +152,7 @@ The wonderful folks that worked on this translation also plan on translating the
 **Info**: A game I don't really know much about but my friend wanted to get the sprites extracted as regular image files.  
 **Progress**: After unpacking the ROM with NitroPacker[^1] I was able to find the characters' graphics in `data/2d/cast` as file formats that were recognized by NitroPaint[^2] and was able to extract.  
 **Notes**: None  
-**Status**: I guess this is considered complete? Once NitroPaint has the function to export NANR animations as .GIF files, extracting the character animations would be faster.
+**Status**: Complete.
 
 # A Witch's Tale (NDS) Sprite Extraction
 **Info**: Same thing with *Witch's Wish* my friend wanted to extract the graphics of the game because they love the cute artstyle.  
