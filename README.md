@@ -98,7 +98,7 @@ The text for the game was found and I was able to edit it. The issue is that the
 **Info**: Popful Mail is one of the more underrated titles by Nihon Falcom. There are multiple versions released but the only one that was officially localized (though poorly translated) was the Sega CD version. The PCE-CD version of the game is also popular and recently Forrealsyall made a full [translated playthough](https://www.youtube.com/playlist?list=PLj4ote4X6Yf5svx1ZDcXNomVAGbjJB7NJ) of the game. Which made me interested in trying to hack it to insert their translation. Big thanks to [X-pert74](https://bsky.app/profile/x-pert74.bsky.social) for bringing this to my attention!    
 **Progress**: I found the game's text and managed to edit it. But the font is very large it would be ideal to support ASCII encoding.
 **Notes**: Game uses Shift-JIS encoding.  
-**Status**: The game is currently getting an English fandub! As for translating the text in the game, I would need to rewrite the printing routine to allow for smaller letters and longer text. I will need more time to look more into this as I'm not very familiar with HuC6280 assembly.
+**Status**: **[An English dub has been completed!](https://romhack.ing/database/content/entry/fhsM-3YQRYmiGwe6CNd8Mg/popful-mail-pc-engine-cd-english-translation-dub)** As for translating the text in the game, I would need to rewrite the printing routine to allow for smaller letters and longer text. I will need more time to look more into this as I'm not very familiar with HuC6280 assembly.
 
 # Wizardry XTH: Academy of Frontier (PS2) Translation
 **Info**: This is another game that my great friend Sugunii wants to see in English. This game also has a sequel, *Wizardry XTH 2: Unlimited Students*, also for the PS2.  
@@ -117,8 +117,25 @@ The text for the game was found and I was able to edit it. The issue is that the
 I looked into it myself and found it to be *very* simple to insert a translation in.  
 **Progress**: The latest patch was released [in 2025, February 14th](https://gbatemp.net/threads/cross-treasures-branch-translation.231245/post-6624370) but a lot of the [story, dialogue, descriptions, images, and more are left untranslated](https://www.gamebrew.org/wiki/Cross_Treasures_DS_-_English_Translation#Changelog)  
 **Notes**: Unpacking the game's ROM shows that the script files are all literally just `.txt` text files. A lot of the graphics also use common filetypes that can be dealt with by NitroPaint[^2].  
-**Status**: It's not quite clear if there is anyone actively working on translating the rest of this game.  
-If there is anyone interested in translating the game then I can help with the technical side of things.
+**Status**: According to [AZealousIndividual on GBATemp](https://gbatemp.net/threads/unfinished-translation-projects-that-could-be-revived.544922/page-7#post-10815878) they had dropped a project a while ago due to not being able to figure out the graphics. If they (or anybody else) are interested in translating the game then I can help with the technical side of things.
+
+# Medarots DS Translation
+**Info**: With the *Medarots* series becoming more popular in English I'm surprised again that nobody has tried to translate more of the games. As expected the NDS games seem to be pretty easy to hack for a translation.  
+**Progress**: I found the text and the graphics. There [is a tool to help with the translation](https://github.com/rissole/medarot-translation) but seems to be partly unfinished.  
+**Notes**: The game's text are in `.spt` script files that can be easily edited with a text editor. The game's text is in Shift-JIS but also supports ASCII and the font files can be edited with NitroPaint[^2].  
+**Status**: Just like with *Cross Treasures* this game can be easily translated by someone without too much technical knowledge it seems.
+
+# Tokyo Twilight Busters (NDS) Translation
+**Info**: This is a remake of a PC-98 game of the same name which also is not translated but the NDS version seems to be very easy to translate?  
+**Progress**: Found the text.  
+**Notes**: The game's text are stored in `.txt` files in the `data\text\rtm\SXX` folders. The test is Shift-JIS encoded but the font can be easily edited with NitroPaint[^2] to support ASCII letters.  
+**Status**: I'm not sure if the scripts are the same between versions but I assume people would rather have the PC-98 version translated over this one. Would still be nice to get this version translated too.  
+
+# Tengai Makyō II: Manji Maru (NDS) Translation
+**Info**: Another NDS remake of a game that is not translated. I don't know much about PC-Engine hacking but I can at least try with the NDS version.  
+**Progress**: I found the text but the game uses custom file formats for the text and graphics.  
+**Notes**: The text is stored in `.scs` files in Shift-JIS encoding.  
+**Status**: More work will be needed to figure out the custom file formats. I assume people would prefer the original PC-Engine version translated. I might try looking into the PS2 or GCN versions of the games. 
 
 # Twilight Syndrome: Kinjirareta Toshi Densetsu (NDS) Translation 
 **Info**: The *Twilight Syndrome* games are one of the most highly requested games to be translated. While there seems to be work being done on the first two PS1 games and also *Moonlight Syndrome*.  
