@@ -69,7 +69,7 @@ The text is all encoded in UTF-16-LE. Graphics seem to be all [GIM Formatted Ima
 # Ys 3 (X68000) Translation
 **Info**: I'm still not done with this series. When looking into the different versions of this game, this specific version is seen as a good version (with other later ports like the Genesis version being based off of this). So it made me surprised to see that nobody had bothered to translate it.  
 **Progress**: I found the text.  
-**Notes**: Game uses Shift-JIS encoding.
+**Notes**: Game uses Shift-JIS encoding.  
 **Status**: The game only supporting full-width text will cause issues with fitting an accurate translation, but if I can get a translation of the game then I'll try to insert it.
 
 # Falcom Classics 1 & 2 (SAT) Translation
@@ -96,7 +96,7 @@ The text for the game was found and I was able to edit it. The issue is that the
 
 # Popful Mail (PCE-CD) Translation
 **Info**: Popful Mail is one of the more underrated titles by Nihon Falcom. There are multiple versions released but the only one that was officially localized (though poorly translated) was the Sega CD version. The PCE-CD version of the game is also popular and recently Forrealsyall made a full [translated playthough](https://www.youtube.com/playlist?list=PLj4ote4X6Yf5svx1ZDcXNomVAGbjJB7NJ) of the game. Which made me interested in trying to hack it to insert their translation. Big thanks to [X-pert74](https://bsky.app/profile/x-pert74.bsky.social) for bringing this to my attention!    
-**Progress**: I found the game's text and managed to edit it. But the font is very large it would be ideal to support ASCII encoding.
+**Progress**: I found the game's text and managed to edit it. But the font is very large it would be ideal to support ASCII encoding.  
 **Notes**: Game uses Shift-JIS encoding.  
 **Status**: **[An English dub has been completed!](https://romhack.ing/database/content/entry/fhsM-3YQRYmiGwe6CNd8Mg/popful-mail-pc-engine-cd-english-translation-dub)** As for translating the text in the game, I would need to rewrite the printing routine to allow for smaller letters and longer text. I will need more time to look more into this as I'm not very familiar with HuC6280 assembly.
 
