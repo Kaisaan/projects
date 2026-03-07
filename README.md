@@ -125,6 +125,12 @@ I looked into it myself and found it to be *very* simple to insert a translation
 **Notes**: The game's text are in `.spt` script files that can be easily edited with a text editor. The game's text is in Shift-JIS but also supports ASCII and the font files can be edited with NitroPaint[^2].  
 **Status**: Just like with *Cross Treasures* this game can be easily translated by someone without too much technical knowledge it seems.
 
+# Kurikin Nano Island Story (NDS) Translation
+**Info**: The game that IGN called "[Nintendo's Dirty Pokemon](https://www.ign.com/articles/2007/04/11/nintendos-dirty-pokemon)" is actually a pretty cool game. My friend wanted to see this translated so I thought I would take a look at it.  
+**Progress**: I found the text and graphics. The   
+**Notes**: The game's text is Shift-JIS encoded with ASCII support. The text is located in `.fevt` files that seem to have `.con` files that share the same filename. The graphics are in `.ntfp` (palette in either `palette16` or `palette256` format) and `.ntft` (tileset) files that can be opened with NitroPaint[^2].  
+**Status**: Figuring out how the text formats doesn't seem too difficult as there are many different files to compare.  
+
 # Tokyo Twilight Busters (NDS) Translation
 **Info**: This is a remake of a PC-98 game of the same name which also is not translated but the NDS version seems to be very easy to translate?  
 **Progress**: Found the text.  
