@@ -1,8 +1,10 @@
 # Projects
 Place for me to add projects that I haven't fully committed to for whatever reason.  
 Also a place for me to document findings in games I've been tinkering with.  
+Feel free to go ahead and make translations of these games, my goal isn't to hinder anyone's progress.  
 If you are interested in helping me with any of these projects please [contact me](https://kaisaan.github.io/pages/contact).  
 Feel free to join [my Hacking Discord server](https://discord.gg/JnqvyDryen) where I plan on posting updates for all my projects.  
+If you like my work, please [donate to me](https://ko-fi.com/kaisaan) if you are able to. My projects will always be freely available.  
 
 # Erst Kerf (PC) Translation
 **Info**: A really cool STG/dungeon crawler doujin game with a really cool presentation and soundtrack that I saw my friend Sugunii play. The game seems to have a story but is sadly untranslated so I decided to look into if I could find the text.  
@@ -31,14 +33,9 @@ I have columns in the [localization changes spreadsheet](https://docs.google.com
 
 # Ys Remakes (PS2) Translations
 **Info**: While I already have been working on translating [*Ys V: Lost Kefin, Kingdom of Sand*](https://github.com/Kaisaan/lostkefin) as one of my main projects, I eventually want to translate the other *Ys* games that were remake on the PS2.  
-**Progress**: I only looked at the file structures and formats for all of the games' ISOs.  
-**Notes**: The only different between the normal and the "Tokubetsu Genteiban" releases of *Ys I & II - Eternal Story* is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).  
-*Ys III - Wanderers from Ys* has the exact same file structure as *Ys V* by having `DATA.BIN`, `DATA0.BIN`, and `DATA1.BIN` for all the game's data. The game also uses the same [custom graphics formats](https://github.com/Kaisaan/lostkefin/blob/main/graphicsFormat.md). This should be the easiest to hack next.  
-*Ys IV - Mask of the Sun, A New Theory* has `DAT.PAK` and `DAT.PKI` to store all its gamedata. I found a [script by Silvris](https://github.com/Silvris/RandomScriptsAndTemplates/blob/main/YsDatExtract.py) that extracts them.  
-With their permission, I used their code to make my own extractor. I also made a PKM/PAK/PKI re-inserter but I'm struggling on rebuilding the files perfectly.  
-Since this game was primarily developed by Arc System Works, it turns out the game's filepacking format was reused in *Guilty Gear 2: Overture* and I was able to find a [different script that extracts the game's DAT.PAK & DAT.PKI files](https://gitlab.com/backyardtools/overture/prototypes#unpkmpy) by [Jill](https://jillcrungus.com/).  
-While this script does not support re-insertion of DAT.PAK/DAT.PKI or extraction of the game's PKM files, I did find that Jill made some [documentation on the PKM format](https://gitlab.com/backyardtools/overture/documentation/-/blob/master/formats/PKM.md?ref_type=heads). Though more research will be needed to see how *A New Theory* handles these file formats.  
-**Status**: I do have some folks willing to work with me for translating these games, but *Lost Kefin* is going to be the main project.
+**Progress**: I made separate repos for [*Ys III - Wanderers from Ys*](https://github.com/Kaisaan/wanderers) and *Ys IV - Mask of the Sun, A New Theory*(https://github.com/Kaisaan/newtheory)  
+**Notes**: The only different between the normal and the "Tokubetsu Genteiban" releases of *Ys I & II - Eternal Story* is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).    
+**Status**: Once I'm done *Lost Kefin* I will work on the other games.
 
 # Summon Night 1 & 2 (NDS) Translations
 **Info**: While I'm not too familliar with the series, my friend wants this game translated so I looked into it.  
@@ -48,17 +45,15 @@ While this script does not support re-insertion of DAT.PAK/DAT.PKI or extraction
 
 # Gachitora! (PSP) Translation
 **Info**: The full name of the game is *GachiTora! Abarenbou Kyoushi in High School* for the PSP. It's this over-the-top brawl where you play as a Yakuza high school teacher and beat people using words! My friend Etokapa really wanted to see this game get translated one day, so I decided to take a look to see how feasible a full translation of the game is.  
-**Progress**: I found the text of the game and have been able to edit it just fine! The game seems to support English letters just fine with variable-width-font support.  
-**Notes**: Most files that start with `PSP` in the file header are packed archive files. The [psp.py script](https://github.com/Kaisaan/projects/blob/main/psp.py) can be used to extract the files from these archives.  
-Files that start with `ZAR` seem to be a for text files. I have [documented some findings](https://github.com/Kaisaan/projects/blob/main/pspformat.png) but more research will be needed.  
-The text is all encoded in UTF-16-LE. Graphics seem to be all [GIM Formatted Images](https://www.psdevwiki.com/ps3/Graphic_Image_Map_(GIM)).   
-**Status**: I need to updated psp.py to include support for repacking files. I also need to find out what [GIMConv Settings](https://www.psdevwiki.com/ps3/GimConv#How_to_identify_GIM_settings) are used so that the graphics of the game can be re-inserted correctly after editing.
+**Progress**: [I made a separate repo for this now!](https://github.com/Kaisaan/gachitora)  
+**Notes**: See the repo.  
+**Status**: This would nice to get translated since I figured out the file formats.  
 
 # Densetsu no Starfy 4 (NDS) Translation
 **Info**: This is one of those games that I got interested in thanks to the [translation playthrough by Autumchild](https://www.youtube.com/playlist?list=PLaln0JC7Av9_Pu8Wf0xQ3cLb1Mt3BUnJO). There is also another [translation playthrough by SomeUselessTranslations](https://www.youtube.com/playlist?list=PLA7NjZIk-WKXtputhikW1T_eVPxJNCHMR). The Starfy wiki has a rough [text dump](https://www.starfywiki.org/wiki/Densetsu_no_Starfy_4/Text_dump) of the game.  
 **Progress**: I found the text in the game but there is seemingly no support for English letters. The game also uses custom file formats that I would need to figure out.  
-**Notes**: Text is all in the game's overlays and encoding in Shift-JIS with no ASCII support. Files in the `Bg_Standard` folder are all LZSS compressed and can be edited with NitroPaint[^2]. There are files in the `Font` folder that have the font graphics in an unknown format.  
-**Status**: I need to figure out the font file formats to see if I can add in English letters fine and then I will need to figure out the script format. If I can get this far then I'll ask for permission to use the translation work from the translated playthroughs.
+**Notes**: Text is all in the game's overlays and encoding in Shift-JIS with no ASCII support. Files in the `Bg_Standard` folder are all LZSS compressed and can be edited with NitroPaint[^2]. There are files in the `Font` folder that have the font graphics that can also be edited with NitroPaint[^2].  
+**Status**: eadmaster has made progress on inserting English text into the game using their [ezrominject tool](https://github.com/eadmaster/ezrominject/tree/main/examples/Stafy%204%20NDS). There is also a [translation overlay tool by Kolbie5874](https://github.com/Kolbie5874/starfy4-translation-overlay).
 
 # Ys 1 (X68000) Translation
 **Info**: Wow another *Ys* translation attempt! This version has very interesting in-game artwork and also has titlescreen/boxart made by the legendary Yoshitaka Amano.  
@@ -98,12 +93,13 @@ The text for the game was found and I was able to edit it. The issue is that the
 **Info**: Popful Mail is one of the more underrated titles by Nihon Falcom. There are multiple versions released but the only one that was officially localized (though poorly translated) was the Sega CD version. The PCE-CD version of the game is also popular and recently Forrealsyall made a full [translated playthough](https://www.youtube.com/playlist?list=PLj4ote4X6Yf5svx1ZDcXNomVAGbjJB7NJ) of the game. Which made me interested in trying to hack it to insert their translation. Big thanks to [X-pert74](https://bsky.app/profile/x-pert74.bsky.social) for bringing this to my attention!    
 **Progress**: I found the game's text and managed to edit it. But the font is very large it would be ideal to support ASCII encoding.  
 **Notes**: Game uses Shift-JIS encoding.  
-**Status**: **[An English dub has been completed!](https://romhack.ing/database/content/entry/fhsM-3YQRYmiGwe6CNd8Mg/popful-mail-pc-engine-cd-english-translation-dub)** As for translating the text in the game, I would need to rewrite the printing routine to allow for smaller letters and longer text. I will need more time to look more into this as I'm not very familiar with HuC6280 assembly.
+**Status**: **[An English dub has been completed!](https://romhack.ing/database/content/entry/fhsM-3YQRYmiGwe6CNd8Mg/popful-mail-pc-engine-cd-english-translation-dub)** As for translating the text in the game, there has also been progress by [other people in my server](https://discord.gg/JnqvyDryen).
 
 # Wizardry XTH: Academy of Frontier (PS2) Translation
 **Info**: This is another game that my great friend Sugunii wants to see in English. This game also has a sequel, *Wizardry XTH 2: Unlimited Students*, also for the PS2.  
+Fun fact about these games is that they were apparently remade as *Generation Xth: Code Hazard, Code Breaker, Code Realize*, which then that trilogy got remade as *Operation Abyss: New Tokyo Legacy & Operation Babel: New Tokyo Legacy*. The *Class of Heroes* series also uses a similar engine.  
 **Progress**: I was able to find some of the text and was able to insert in English text.  
-**Notes**: Game uses Shift-JIS encoding with support for halfwidth ASCII letters.  
+**Notes**: Game uses Shift-JIS encoding with support for half-width ASCII letters.  
 **Status**: I would like to return to this eventually.
 
 # Wild Arms: Alter Code F (PS2) Relocalization
@@ -119,7 +115,7 @@ I looked into it myself and found it to be *very* simple to insert a translation
 **Notes**: Unpacking the game's ROM shows that the script files are all literally just `.txt` text files. A lot of the graphics also use common filetypes that can be dealt with by NitroPaint[^2].  
 **Status**: According to [AZealousIndividual on GBATemp](https://gbatemp.net/threads/unfinished-translation-projects-that-could-be-revived.544922/page-7#post-10815878) they had dropped a project a while ago due to not being able to figure out the graphics. If they (or anybody else) are interested in translating the game then I can help with the technical side of things.
 
-# Medarots DS Translation
+# Medarot Kabuto & Kuwagata Versions (NDS) Translation
 **Info**: With the *Medarots* series becoming more popular in English I'm surprised again that nobody has tried to translate more of the games. As expected the NDS games seem to be pretty easy to hack for a translation.  
 **Progress**: I found the text and the graphics. There [is a tool to help with the translation](https://github.com/rissole/medarot-translation) but seems to be partly unfinished.  
 **Notes**: The game's text are in `.spt` script files that can be easily edited with a text editor. The game's text is in Shift-JIS but also supports ASCII and the font files can be edited with NitroPaint[^2].  
@@ -149,7 +145,13 @@ There doesn't seem to be any work done on the DS title so I decided to look into
 **Progress**: I found the game's text but it seems that the font will need to be edited to include Shift-JIS support, or a different game's font can be used altogether.  
 The strings in the game don't seem to be ordered so there will need to be more work to properly dump everything in a sorted order.  
 **Notes**: All the game's text is located in the `arm9.bin` file with Shift-JIS encoding. The graphics and font files can be edited with NitroPaint[^2].  
-**Status**: This is one of the many games that I just want to document its hacking-viability so that maybe someone can come along and get this game translated.  
+**Status**: This is one of the many games that I just want to document its hacking-viability so that maybe someone can come along and get this game translated.
+
+# Super Robot Wars K & L (NDS) Translations
+**Info**: I really like the DS and want to do a DS translation eventually as you can tell. I did find that *SRW K* had a [translated playthrough](https://lpix.org/sslptest/index.php?id=167114) so I figured I would look into it. The successor game *SRW L* has similar file formats.  
+**Progress**: I made a script to extract the individual files out of the main `.bin` files in the `data` folder.  
+**Notes**: A lot of the files have a "PLT" header (palette?), "SCR" (screeen?), and ECD & IMG (image?). The problem is none of the files are named so I don't know which file goes with what. The game's script is in the `arm9.bin` file with Shift-JIS encoding.  
+**Status**: I'll try to extract the strings and graphics later.  
 
 # Neon Genesis Evangelion (N64) Translation
 **Info**: I have beat this game in full once thanks to the [multiple guides on GameFAQs](https://gamefaqs.gamespot.com/n64/198127-neon-genesis-evangelion/faqs) but I still want to have this game translated, especially since there are many other translated *Evangelion* games  
@@ -163,6 +165,12 @@ The filetable posted by Zoinkitty [is still available](https://web.archive.org/w
 **Progress**: I haven't found any of the text graphics or text itself  
 **Notes**: None  
 **Status**: I will need to learn more about 65c816 assembly to hack this game.
+
+# Various GBA Game Translations
+**Info**: One of the retro game stores near me has a good few Japanese GBA games. Some of them already have official localizations or fan translations but a good amoutn of them don't. It would be cool for me to, uh, actually own a game that I would translate.  
+**Progress**: I haven't looked much into any of the games at all but I did [make a spreadsheet](https://docs.google.com/spreadsheets/d/1lDrUUBaNP4ATlksgp2L9ZJi4XWlHF-3dNhEyxN4FnEo/edit?usp=sharing). Since I always like making spreadsheets and documents LOL.  
+**Notes**: There's a lot of licensed anime games.  
+**Status**: If there's any in particular that anyone wants translated then maybe I'll try working on it.
 
 # Ys I: Ancient Ys Vanished (PC-88) Translation
 **Info**: I think by now you can tell that I really like Ys, so I wanted to see what I could get translation hacks going for.  
