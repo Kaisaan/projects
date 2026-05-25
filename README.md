@@ -25,35 +25,35 @@ If you like my work, please [donate to me](https://ko-fi.com/kaisaan) if you are
 I have columns in the [localization changes spreadsheet](https://docs.google.com/spreadsheets/d/14efc2_Ah8uxgdXu9EfgDKUMMqBqisJnxj0-aCOOkT8I/edit?usp=sharing) for this game too.  
 **Status**: I figured out how to load NDS projects into Ghidra, some strings don't seem to have pointers but that should be fine. I will start working on it more.
 
-# Rockman EXE N1 Battle (WSC) Translation
-**Info**: Localized as *Mega Man Battle Chip Challenge N1*, this game is different from its GBA counterpart *Mega Man Battle Chip Challenge* being a cutdown version of it.  
-**Progress**: Made an unfinished [table file](https://github.com/Kaisaan/projects/blob/main/mmnb_table.tbl) (thanks to Sugunii for the help!), found where the text is located.  
-**Notes**: See [notes file](https://github.com/Kaisaan/projects/blob/main/mmnb_notes.txt)  
-**Status**: I don't have a full table file so I won't be able to dump all the text I think. I might just compare strings from the Japanese GBA version and then replace them with their English counterparts.
+# Gachitora! (PSP) Translation
+**Info**: The full name of the game is *GachiTora! Abarenbou Kyoushi in High School* for the PSP. It's this over-the-top brawl where you play as a Yakuza high school teacher and beat people using words! My friend Etokapa really wanted to see this game get translated one day, so I decided to take a look to see how feasible a full translation of the game is.  
+**Progress**: [I made a separate repo for this now!](https://github.com/Kaisaan/gachitora)  
+**Notes**: See the repo.  
+**Status**: This would nice to get translated since I figured out the file formats. 
 
-# Ys Remakes (PS2) Translations
-**Info**: While I already have been working on translating [*Ys V: Lost Kefin, Kingdom of Sand*](https://github.com/Kaisaan/lostkefin) as one of my main projects, I eventually want to translate the other *Ys* games that were remake on the PS2.  
-**Progress**: I made separate repos for [*Ys III - Wanderers from Ys*](https://github.com/Kaisaan/wanderers) and *Ys IV - Mask of the Sun, A New Theory*(https://github.com/Kaisaan/newtheory)  
-**Notes**: The only different between the normal and the "Tokubetsu Genteiban" releases of *Ys I & II - Eternal Story* is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).    
-**Status**: Once I'm done *Lost Kefin* I will work on the other games.
+# Ys I & II - Eternal Story (PS2) Translation
+**Info**: While I already have translated [*Ys V: Lost Kefin, Kingdom of Sand*](https://github.com/Kaisaan/lostkefin), am currently working on [*Ys III - Wanderers from Ys*](https://github.com/Kaisaan/wanderers), and then will work on *Ys IV - Mask of the Sun, A New Theory*(https://github.com/Kaisaan/newtheory), I still have one more *Ys* PS2 game to get translated. This version of the game has a "Dream World" thing and a separate "Eternal Story" mode for both games.  
+**Progress**: Nothing really.  
+**Notes**: The only different between the original and the "Tokubetsu Genteiban" releases of the game is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).    
+**Status**: I will work on the other games later.
 
 # Summon Night 1 & 2 (NDS) Translations
 **Info**: While I'm not too familliar with the series, my friend wants this game translated so I looked into it.  
 **Progress**: Using [previous](https://gbatemp.net/threads/summon-night-1-translation-project.119735/) [attempts](https://github.com/yutriz/SN1-2_tl_tools) to see how the game works, I was able to get the script files extracted.  
 **Notes**: I used NitroPacker[^1] to unpack the files from the game's ROM. The font is `data/font12jp.NFTR` and is in Shift-JIS encoding with variable-width ASCII support. All text files are `.rtz` files in the `scnrts` folder and LZ10 compressed. I made [a python script](https://github.com/Kaisaan/projects/blob/main/summ.py) as an example for decompressing and recompressing these files using [ndspy](https://github.com/RoadrunnerWMC/ndspy). The rest of the game's files are in `.narc` archives and use formats that can be opened with NitroPaint[^2].  
-**Status**: Folks in the [Summon Night Community Discord Server](discord.gg/2FMCTs8) have gathered together to work on the PS1 version of the game. Since the DS Port removes voice acting among other changes, the PS1 version is preferred. Also a lot of work has been done already by a few people in terms of both hacking and translating the game. So a port of the script to the DS release can maybe be done later.  
-
-# Gachitora! (PSP) Translation
-**Info**: The full name of the game is *GachiTora! Abarenbou Kyoushi in High School* for the PSP. It's this over-the-top brawl where you play as a Yakuza high school teacher and beat people using words! My friend Etokapa really wanted to see this game get translated one day, so I decided to take a look to see how feasible a full translation of the game is.  
-**Progress**: [I made a separate repo for this now!](https://github.com/Kaisaan/gachitora)  
-**Notes**: See the repo.  
-**Status**: This would nice to get translated since I figured out the file formats.  
+**Status**: Folks in the [Summon Night Community Discord Server](discord.gg/2FMCTs8) have gathered together to work on the PS1 version of the game. Since the DS Port removes voice acting among other changes, the PS1 version is preferred. Also a lot of work has been done already by a few people in terms of both hacking and translating the game. So a port of the script to the DS release can maybe be done later.   
 
 # Densetsu no Starfy 4 (NDS) Translation
 **Info**: This is one of those games that I got interested in thanks to the [translation playthrough by Autumchild](https://www.youtube.com/playlist?list=PLaln0JC7Av9_Pu8Wf0xQ3cLb1Mt3BUnJO). There is also another [translation playthrough by SomeUselessTranslations](https://www.youtube.com/playlist?list=PLA7NjZIk-WKXtputhikW1T_eVPxJNCHMR). The Starfy wiki has a rough [text dump](https://www.starfywiki.org/wiki/Densetsu_no_Starfy_4/Text_dump) of the game.  
 **Progress**: I found the text in the game but there is seemingly no support for English letters. The game also uses custom file formats that I would need to figure out.  
 **Notes**: Text is all in the game's overlays and encoding in Shift-JIS with no ASCII support. Files in the `Bg_Standard` folder are all LZSS compressed and can be edited with NitroPaint[^2]. There are files in the `Font` folder that have the font graphics that can also be edited with NitroPaint[^2].  
 **Status**: eadmaster has made progress on inserting English text into the game using their [ezrominject tool](https://github.com/eadmaster/ezrominject/tree/main/examples/Stafy%204%20NDS). There is also a [translation overlay tool by Kolbie5874](https://github.com/Kolbie5874/starfy4-translation-overlay).
+
+# Rockman EXE N1 Battle (WSC) Translation
+**Info**: Localized as *Mega Man Battle Chip Challenge N1*, this game is different from its GBA counterpart *Mega Man Battle Chip Challenge* being a cutdown version of it.  
+**Progress**: Made an unfinished [table file](https://github.com/Kaisaan/projects/blob/main/mmnb_table.tbl) (thanks to Sugunii for the help!), found where the text is located.  
+**Notes**: See [notes file](https://github.com/Kaisaan/projects/blob/main/mmnb_notes.txt)  
+**Status**: I don't have a full table file so I won't be able to dump all the text I think. I might just compare strings from the Japanese GBA version and then replace them with their English counterparts.
 
 # Ys 1 (X68000) Translation
 **Info**: Wow another *Ys* translation attempt! This version has very interesting in-game artwork and also has titlescreen/boxart made by the legendary Yoshitaka Amano.  
@@ -150,8 +150,15 @@ The strings in the game don't seem to be ordered so there will need to be more w
 # Super Robot Wars K & L (NDS) Translations
 **Info**: I really like the DS and want to do a DS translation eventually as you can tell. I did find that *SRW K* had a [translated playthrough](https://lpix.org/sslptest/index.php?id=167114) so I figured I would look into it. The successor game *SRW L* has similar file formats.  
 **Progress**: I made a script to extract the individual files out of the main `.bin` files in the `data` folder.  
-**Notes**: A lot of the files have a "PLT" header (palette?), "SCR" (screeen?), and ECD & IMG (image?). The problem is none of the files are named so I don't know which file goes with what. The game's script is in the `arm9.bin` file with Shift-JIS encoding.  
-**Status**: I'll try to extract the strings and graphics later.  
+**Notes**: A lot of the files have a "PLT" header (palette?), "SCR" (screen?), and ECD & IMG (image?). The problem is none of the files are named so I don't know which file goes with what. The game's script is in the `arm9.bin` file with Shift-JIS encoding.  
+**Status**: I'll try to extract the strings and graphics later.
+
+# Elminage DS Remix (NDS) Translation
+**Info**: I have done [lost of research on the many games rereleased on the DS](https://docs.google.com/spreadsheets/d/1E18vwS4MEduTv1vN2OxmL82z9VaywsUr2qpoCL6S19I/edit?usp=sharing) and *Elminage* is one of them. Its sequel was also "remixed" for the DS.  
+Also check out the work in progress translation [of the PS2 version by ScatterdBrain!](https://github.com/ScatterdBrain/Elminage-Yami-no-Miko-to-Kamigami-no-Yubiwa-PS2-English-Patch)
+**Progress**: I found the text.  
+**Notes**: There are `.csv` spreadsheet files in the `data/csv` folder. The `.bin` files in the `data/script` folders have Shift-JIS text.  
+**Status**: I'm not sure how similar the script is between the other versions. I might be able to port over an English script if any of the other versions get translated first.  
 
 # Neon Genesis Evangelion (N64) Translation
 **Info**: I have beat this game in full once thanks to the [multiple guides on GameFAQs](https://gamefaqs.gamespot.com/n64/198127-neon-genesis-evangelion/faqs) but I still want to have this game translated, especially since there are many other translated *Evangelion* games  
