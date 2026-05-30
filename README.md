@@ -32,9 +32,11 @@ I have columns in the [localization changes spreadsheet](https://docs.google.com
 **Status**: This would nice to get translated since I figured out the file formats. 
 
 # Ys I & II - Eternal Story (PS2) Translation
-**Info**: While I already have translated [*Ys V: Lost Kefin, Kingdom of Sand*](https://github.com/Kaisaan/lostkefin), am currently working on [*Ys III - Wanderers from Ys*](https://github.com/Kaisaan/wanderers), and then will work on *Ys IV - Mask of the Sun, A New Theory*(https://github.com/Kaisaan/newtheory), I still have one more *Ys* PS2 game to get translated. This version of the game has a "Dream World" thing and a separate "Eternal Story" mode for both games.  
-**Progress**: Nothing really.  
-**Notes**: The only different between the original and the "Tokubetsu Genteiban" releases of the game is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).    
+**Info**: While I already have translated [*Ys V: Lost Kefin, Kingdom of Sand*](https://github.com/Kaisaan/lostkefin), am currently working on [*Ys III - Wanderers from Ys*](https://github.com/Kaisaan/wanderers), and then will work on [*Ys IV - Mask of the Sun, A New Theory*](https://github.com/Kaisaan/newtheory), I still have one more *Ys* PS2 game to get translated. This version of the game has a "Dream World" thing and a separate "Eternal Story" mode for both games.  
+**Progress**: I found some of the text.  
+**Notes**: The only different between the original and the "Tokubetsu Genteiban" releases of the game is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).  
+Most of the .DAT files seem to just be renamed BMP image files. In the `YS1_DATA` folder there is a `DATA.YS` file that seems to have all the relevant text.  
+In the `YS2_DATA` folder there are some files with the `.YS2` file extension and have a `YS2E` header.  
 **Status**: I will work on the other games later.
 
 # Summon Night 1 & 2 (NDS) Translations
@@ -155,7 +157,7 @@ The strings in the game don't seem to be ordered so there will need to be more w
 
 # Elminage DS Remix (NDS) Translation
 **Info**: I have done [lost of research on the many games rereleased on the DS](https://docs.google.com/spreadsheets/d/1E18vwS4MEduTv1vN2OxmL82z9VaywsUr2qpoCL6S19I/edit?usp=sharing) and *Elminage* is one of them. Its sequel was also "remixed" for the DS.  
-Also check out the work in progress translation [of the PS2 version by ScatterdBrain!](https://github.com/ScatterdBrain/Elminage-Yami-no-Miko-to-Kamigami-no-Yubiwa-PS2-English-Patch)
+Also check out the work in progress translation [of the PS2 version by ScatterdBrain!](https://github.com/ScatterdBrain/Elminage-Yami-no-Miko-to-Kamigami-no-Yubiwa-PS2-English-Patch)  
 **Progress**: I found the text.  
 **Notes**: There are `.csv` spreadsheet files in the `data/csv` folder. The `.bin` files in the `data/script` folders have Shift-JIS text.  
 **Status**: I'm not sure how similar the script is between the other versions. I might be able to port over an English script if any of the other versions get translated first.  
