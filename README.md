@@ -19,7 +19,7 @@ If you like my work, please [donate to me](https://ko-fi.com/kaisaan) if you are
 **Status**: I'll work on this eventually I think. I know that the English localization of the game also had many [balance changes](https://tcrf.net/Ys:_Book_I_%26_II) but I haven't found the stats in the game's files yet
 
 # Legacy of Ys - Books I & II (NDS) Relocalization
-**Info**: Same thing like the PC-Engine version of the games, I wanted to fix Atlus' localization of the game to match the newer terms used.  
+**Info**: Same thing like the PC-Engine version of the games, I wanted to edit Atlus' localization of the game to match the newer terms used.  
 **Progress**: Some of the text has been edited.  
 **Notes**: The text for *Ys I* is in `overlay/main_0001.bin` and *Ys II* in `overlay/main_0002.bin` with the text using Shift-JIS encoding. All overlays are loaded at `0x205C000`. Names of locations on the map are in different `.inf` files located in `data\ys1\files\inf`.    
 I have columns in the [localization changes spreadsheet](https://docs.google.com/spreadsheets/d/14efc2_Ah8uxgdXu9EfgDKUMMqBqisJnxj0-aCOOkT8I/edit?usp=sharing) for this game too.  
@@ -132,7 +132,7 @@ I looked into it myself and found it to be *very* simple to insert a translation
 # Tokyo Twilight Busters (NDS) Translation
 **Info**: This is a remake of a PC-98 game of the same name which also is not translated but the NDS version seems to be very easy to translate?  
 **Progress**: Found the text.  
-**Notes**: The game's text are stored in `.txt` files in the `data\text\rtm\SXX` folders. The test is Shift-JIS encoded but the font can be easily edited with NitroPaint[^2] to support ASCII letters.  
+**Notes**: The game's text are stored in `.txt` files in the `data\text\rtm\SXX` folders. The text is Shift-JIS encoded but the font can be easily edited with NitroPaint[^2] to support ASCII letters.  
 **Status**: I'm not sure if the scripts are the same between versions but I assume people would rather have the PC-98 version translated over this one. Would still be nice to get this version translated too.  
 
 # Tengai Makyō II: Manji Maru (NDS) Translation
@@ -170,7 +170,7 @@ The filetable posted by Zoinkitty [is still available](https://web.archive.org/w
 **Status**: I might return to this eventually, but hopefully an N64 hacking expert like Zoinkitty tackles this instead.
 
 # Gekisou Sentai Carranger: Zenkai! Racer Senshi (SFC) Translation
-**Info**: I only know about this game because of the music track [*Select Your Carranger!](https://www.youtube.com/watch?v=8AS-8wsledg) but still I want to try translating this game eventually.  
+**Info**: I only know about this game because of the music track [*Select Your Carranger!*](https://www.youtube.com/watch?v=8AS-8wsledg) but still I want to try translating this game eventually.  
 **Progress**: I haven't found any of the text graphics or text itself  
 **Notes**: None  
 **Status**: I will need to learn more about 65c816 assembly to hack this game.
