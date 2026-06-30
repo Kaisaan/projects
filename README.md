@@ -5,6 +5,7 @@ Feel free to go ahead and make translations of these games, my goal isn't to hin
 If you are interested in helping me with any of these projects please [contact me](https://kaisaan.github.io/pages/contact).  
 Feel free to join [my Hacking Discord server](https://discord.gg/JnqvyDryen) where I plan on posting updates for all my projects.  
 If you like my work, please [donate to me](https://ko-fi.com/kaisaan) if you are able to. My projects will always be freely available.  
+You can also find this list on [Backloggd](https://backloggd.com/u/Kaisaan/list/games-i-will-get-translated-eventually/) though with much more informal notes.
 
 # Erst Kerf (PC) Translation
 **Info**: A really cool STG/dungeon crawler doujin game with a really cool presentation and soundtrack that I saw my friend Sugunii play. The game seems to have a story but is sadly untranslated so I decided to look into if I could find the text.  
