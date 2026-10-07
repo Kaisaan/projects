@@ -7,11 +7,19 @@ Feel free to join [my Hacking Discord server](https://discord.gg/JnqvyDryen) whe
 If you like my work, please [donate to me](https://ko-fi.com/kaisaan) if you are able to. My projects will always be freely available.  
 You can also find this list on [Backloggd](https://backloggd.com/u/Kaisaan/list/games-i-will-get-translated-eventually/) though with much more informal notes.
 
-# Erst Kerf (PC) Translation
-**Info**: A really cool STG/dungeon crawler doujin game with a really cool presentation and soundtrack that I saw my friend Sugunii play. The game seems to have a story but is sadly untranslated so I decided to look into if I could find the text.  
-**Progress**: [**Completed! Check it out!**](https://github.com/Etokapa/Erst-Kerf-English-Translation-Patch) The game has been fully translated thanks to [Etokapa](https://github.com/Etokapa) with some technical assistance by [NightWolve](https://github.com/NightWolve75).  
-**Notes**: Check out the Github for documentation on editing the game's graphics and text.  
-**Status**: While the current version is at 0.1, there has not been any reported issues with the game and the translation is fully playable in English now!
+# Completed Projects
+See the respective pages for more info on these projects.  
+- [Ys V: Lost Kefin, Kingdom of Sand (PS2) Translation](https://github.com/Kaisaan/lostkefin)
+- [Ys III: Wanderers From Ys (PS2) Translation](https://github.com/Kaisaan/wanderers)
+- [Digital Devil Story: Megami Tensei (MSX) Translation](https://github.com/Kaisaan/DDS-Translation)
+- [Erst Kerf (PC) Translation](https://github.com/Etokapa/Erst-Kerf-English-Translation-Patch)
+
+# Projects in Progress
+Projects that I am currently working on or have made enough progress to have Github repos available.  
+- [Ys IV: Mask of the Sun -A New Theory- (PS2) Translation](https://github.com/Kaisaan/newtheory)
+- [Summon Night 1 (NDS) Translation](https://github.com/Kaisaan/SN1-DS-Trans)
+- [Tales of Fandom Vol. 2 (PS2) Translation](https://github.com/Kaisaan/Tales-of-Fandom-Vol-2-Luke-Edition)
+- [GachiTora! Abarenbou Kyoushi in High School (PSP) Translation](https://github.com/Kaisaan/gachitora)
 
 # Ys Book I & II (PCE-CD) Relocalization
 **Info**: Not sure if "relocalization" is the right term but I want to edit the existing localization of the game to use the modern terms used in later *Ys* localizations and releases. Having Dogi be renamed as Colin is funny though  
@@ -26,25 +34,13 @@ You can also find this list on [Backloggd](https://backloggd.com/u/Kaisaan/list/
 I have columns in the [localization changes spreadsheet](https://docs.google.com/spreadsheets/d/14efc2_Ah8uxgdXu9EfgDKUMMqBqisJnxj0-aCOOkT8I/edit?usp=sharing) for this game too.  
 **Status**: I figured out how to load NDS projects into Ghidra, some strings don't seem to have pointers but that should be fine. I will start working on it more.
 
-# Gachitora! (PSP) Translation
-**Info**: The full name of the game is *GachiTora! Abarenbou Kyoushi in High School* for the PSP. It's this over-the-top brawl where you play as a Yakuza high school teacher and beat people using words! My friend Etokapa really wanted to see this game get translated one day, so I decided to take a look to see how feasible a full translation of the game is.  
-**Progress**: [I made a separate repo for this now!](https://github.com/Kaisaan/gachitora)  
-**Notes**: See the repo.  
-**Status**: This would nice to get translated since I figured out the file formats. 
-
 # Ys I & II - Eternal Story (PS2) Translation
 **Info**: While I already have translated [*Ys V: Lost Kefin, Kingdom of Sand*](https://github.com/Kaisaan/lostkefin), am currently working on [*Ys III - Wanderers from Ys*](https://github.com/Kaisaan/wanderers), and then will work on [*Ys IV - Mask of the Sun, A New Theory*](https://github.com/Kaisaan/newtheory), I still have one more *Ys* PS2 game to get translated. This version of the game has a "Dream World" thing and a separate "Eternal Story" mode for both games.  
 **Progress**: I found some of the text.  
 **Notes**: The only different between the original and the "Tokubetsu Genteiban" releases of the game is a single byte change (in `SYSTEM.CNF` to change `SLPS_252.06` to `SLPS_252.05`).  
 Most of the .DAT files seem to just be renamed BMP image files. In the `YS1_DATA` folder there is a `DATA.YS` file that seems to have all the relevant text.  
 In the `YS2_DATA` folder there are some files with the `.YS2` file extension and have a `YS2E` header.  
-**Status**: I will work on the other games later.
-
-# Summon Night 1 & 2 (NDS) Translations
-**Info**: While I'm not too familliar with the series, my friend wants this game translated so I looked into it.  
-**Progress**: Using [previous](https://gbatemp.net/threads/summon-night-1-translation-project.119735/) [attempts](https://github.com/yutriz/SN1-2_tl_tools) to see how the game works, I was able to get the script files extracted.  
-**Notes**: I used NitroPacker[^1] to unpack the files from the game's ROM. The font is `data/font12jp.NFTR` and is in Shift-JIS encoding with variable-width ASCII support. All text files are `.rtz` files in the `scnrts` folder and LZ10 compressed. I made [a python script](https://github.com/Kaisaan/projects/blob/main/summ.py) as an example for decompressing and recompressing these files using [ndspy](https://github.com/RoadrunnerWMC/ndspy). The rest of the game's files are in `.narc` archives and use formats that can be opened with NitroPaint[^2].  
-**Status**: Folks in the [Summon Night Community Discord Server](discord.gg/2FMCTs8) have gathered together to work on the PS1 version of the game. Since the DS Port removes voice acting among other changes, the PS1 version is preferred. Also a lot of work has been done already by a few people in terms of both hacking and translating the game. So a port of the script to the DS release can maybe be done later.   
+**Status**: I will work on the other games later. 
 
 # Densetsu no Starfy 4 (NDS) Translation
 **Info**: This is one of those games that I got interested in thanks to the [translation playthrough by Autumchild](https://www.youtube.com/playlist?list=PLaln0JC7Av9_Pu8Wf0xQ3cLb1Mt3BUnJO). There is also another [translation playthrough by SomeUselessTranslations](https://www.youtube.com/playlist?list=PLA7NjZIk-WKXtputhikW1T_eVPxJNCHMR). The Starfy wiki has a rough [text dump](https://www.starfywiki.org/wiki/Densetsu_no_Starfy_4/Text_dump) of the game.  
