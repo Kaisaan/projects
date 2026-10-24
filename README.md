@@ -138,6 +138,18 @@ I looked into it myself and found it to be *very* simple to insert a translation
 **Notes**: The text is stored in `.scs` files in Shift-JIS encoding.  
 **Status**: More work will be needed to figure out the custom file formats. I assume people would prefer the original PC-Engine version translated. I might try looking into the PS2 or GCN versions of the games. 
 
+# Tengai Makyō III: Namida (PS2) Translation  
+**Info**: This is an interesting game since the developers had to restart working on the game. While this is probably the game that people want translated the least (at least, before the other titles), since it's exclusive to the PS2 I figured I'd give it a look.   
+**Progress**: The game actually has named functions! I'm not sure how to load them into Ghidra but they show up in PCSX2's debugger. I would just need to reverse-engineer the game's compression routine to decompress and recompress the game's files.  
+**Notes**: Most of the game's files are stored in `.afs` files [that have their format documented already](https://www.watto.org/specs.html?specs=Archive_AFS_AFS). The extracted files have `CMP` as a header. The functions `CmpCheckData`, `CmpGetOrgSize`, and most importantly `CmpDecompress` should be looked into.    
+**Status**: I do have a translator that is interested on working on this! But I need to get around to figuring out the compression routine.
+
+# Sakura Wars V: Episode 0 (PS2) Translation
+**Info**: The full name of the game is *Sakura Taisen V Episode 0 ~Samurai Girl of the Wild West~* and is a small side game to the surprisingly actually localized  *Sakura Wars: So Long, My Love* on PS2 and Wii. I found that the game [has a translated playthrough](https://sakuraproject.info/episode0/) so I was interested in trying to insert the translation into the game.    
+**Progress**: This game has its files stored into large `.dat` files that are simple enough to be extracted. But the extracted files are compressed so I need to figure out how its compression works.  
+**Notes**: The Function at `0x002711A0` is responsible for decompressing the files.  
+**Status**: I need to just spend a few days just figuring out the compression routine and I should be good after.  
+
 # Twilight Syndrome: Kinjirareta Toshi Densetsu (NDS) Translation 
 **Info**: The *Twilight Syndrome* games are one of the most highly requested games to be translated. While there seems to be work being done on the first two PS1 games and also *Moonlight Syndrome*.  
 There doesn't seem to be any work done on the DS title so I decided to look into the game myself to see if there's any documentation I can do to bring awareness.  
