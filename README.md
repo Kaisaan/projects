@@ -165,7 +165,7 @@ The strings in the game don't seem to be ordered so there will need to be more w
 **Status**: I'll try to extract the strings and graphics later.
 
 # Elminage DS Remix (NDS) Translation
-**Info**: I have done [lost of research on the many games rereleased on the DS](https://docs.google.com/spreadsheets/d/1E18vwS4MEduTv1vN2OxmL82z9VaywsUr2qpoCL6S19I/edit?usp=sharing) and *Elminage* is one of them. Its sequel was also "remixed" for the DS.  
+**Info**: I have done [lots of research on the many games rereleased on the DS](https://docs.google.com/spreadsheets/d/1E18vwS4MEduTv1vN2OxmL82z9VaywsUr2qpoCL6S19I/edit?usp=sharing) and *Elminage* is one of them. Its sequel was also "remixed" for the DS.  
 Also check out the work in progress translation [of the PS2 version by ScatterdBrain!](https://github.com/ScatterdBrain/Elminage-Yami-no-Miko-to-Kamigami-no-Yubiwa-PS2-English-Patch)  
 **Progress**: I found the text.  
 **Notes**: There are `.csv` spreadsheet files in the `data/csv` folder. The `.bin` files in the `data/script` folders have Shift-JIS text.  
