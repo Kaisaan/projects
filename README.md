@@ -145,10 +145,11 @@ I looked into it myself and found it to be *very* simple to insert a translation
 **Status**: I do have a translator that is interested on working on this! But I need to get around to figuring out the compression routine.
 
 # Sakura Wars V: Episode 0 (PS2) Translation
-**Info**: The full name of the game is *Sakura Taisen V Episode 0 ~Samurai Girl of the Wild West~* and is a small side game to the surprisingly actually localized  *Sakura Wars: So Long, My Love* on PS2 and Wii. I found that the game [has a translated playthrough](https://sakuraproject.info/episode0/) so I was interested in trying to insert the translation into the game.    
-**Progress**: This game has its files stored into large `.dat` files that are simple enough to be extracted. But the extracted files are compressed so I need to figure out how its compression works.  
-**Notes**: The Function at `0x002711A0` is responsible for decompressing the files.  
-**Status**: I need to just spend a few days just figuring out the compression routine and I should be good after.  
+**Info**: The full name of the game is *Sakura Taisen V Episode 0 \~Samurai Girl of the Wild West\~* and is a small side game to the surprisingly actually localized  *Sakura Wars: So Long, My Love* on PS2 and Wii. I found that the game [has a translated playthrough](https://sakuraproject.info/episode0/) so I was interested in trying to insert the translation into the game.    
+**Progress**: This game has its files stored into large `.dat` files that are stored in a very interesting way. The extracted files themselves are also compressed. But thanks to ScatterBrain we now have decompression code.  
+**Notes**: The large `.bin` files have a file count and a few values that are used with bit manipulation to store the offset and filesize into a single integer. I have made [a python script](https://github.com/Kaisaan/projects/blob/main/swep.py) to extract the files.   
+The Function at `0x002711A0` is responsible for decompressing the files.  
+**Status**: I need to verify if the decompression code works and then work on a re-compression code. I also need to figure out this game's script format. Big thanks again to [ScatterBrain](https://github.com/ScatterdBrain) for helping with the decompression code!  
 
 # Twilight Syndrome: Kinjirareta Toshi Densetsu (NDS) Translation 
 **Info**: The *Twilight Syndrome* games are one of the most highly requested games to be translated. While there seems to be work being done on the first two PS1 games and also *Moonlight Syndrome*.  
